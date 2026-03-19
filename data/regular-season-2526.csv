@@ -1,0 +1,365 @@
+﻿Tag;Datum;Zeit;Home;Away;Resultat;Drittel;OT/SO;Status;Versch.;Stadion;Zus.;TV/Online;Id;Liga;Region;Phase
+Di;09.09.2025;19:45;HC Ambri-Piotta;EHC Kloten; 2:1; 0:0|1:1|1:0;;Ende;False;Gottardo Arena, 6775 Ambri TI;6149;MYSPORTS;20261105000001;NL;CH;Regular Season
+Di;09.09.2025;19:45;HC Davos;Lausanne HC; 4:1; 0:0|1:0|3:1;;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;3696;MYSPORTS;20261105000002;NL;CH;Regular Season
+Di;09.09.2025;19:45;Fribourg-Gottéron;HC Lugano; 3:2; 1:0|0:1|1:1|1:0;OT;Ende;False;BCF Arena, 1700 Fribourg FR;9280;MYSPORTS,TELETICINO;20261105000003;NL;CH;Regular Season
+Di;09.09.2025;19:45;Genève-Servette HC;HC Ajoie; 5:3; 0:1|2:0|3:2;;Ende;False;Les Vernets, 1227 Les Acacias GE;6003;MYSPORTS;20261105000004;NL;CH;Regular Season
+Di;09.09.2025;19:45;SC Rapperswil-Jona Lakers;SCL Tigers; 5:1; 2:0|2:0|1:1;;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;4293;MYSPORTS;20261105000005;NL;CH;Regular Season
+Di;09.09.2025;19:45;ZSC Lions;EHC Biel-Bienne; 4:3; 0:1|1:0|3:2;;Ende;False;Swiss Life Arena, 8048 Zürich ZH;10152;MYSPORTS,LEMANBLEU,LATELE,TELEB;20261105000006;NL;CH;Regular Season
+Di;09.09.2025;19:45;EV Zug;SC Bern; 3:0; 2:0|0:0|1:0;;Ende;False;OYM hall, 6303 Zug;7073;MYSPORTS;20261105000007;NL;CH;Regular Season
+Do;11.09.2025;20:00;EHC Biel-Bienne;HC Davos; 1:4; 1:1|0:2|0:1;;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;5705;MYSPORTS,TV24,3PLUS;20261105000010;NL;CH;Regular Season
+Fr;12.09.2025;19:45;HC Ajoie;ZSC Lions; 0:4; 0:1|0:3|0:0;;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;3963;MYSPORTS;20261105000008;NL;CH;Regular Season
+Fr;12.09.2025;19:45;SC Bern;Genève-Servette HC; 2:1; 1:0|0:1|0:0|1:0;SO;Ende;False;PostFinance Arena, 3014 Bern BE;14523;MYSPORTS;20261105000009;NL;CH;Regular Season
+Fr;12.09.2025;19:45;EHC Kloten;SC Rapperswil-Jona Lakers; 5:3; 0:2|0:1|5:0;;Ende;False;SWISS Arena, 8302 Kloten ZH;5090;MYSPORTS;20261105000011;NL;CH;Regular Season
+Fr;12.09.2025;19:45;HC Lugano;EV Zug; 1:2; 0:0|1:2|0:0;;Ende;False;Cornèr Arena, 6948 Porza Ti;5160;MYSPORTS,TV24,3PLUS;20261105000012;NL;CH;Regular Season
+Fr;12.09.2025;19:45;Lausanne HC;Fribourg-Gottéron; 5:1; 2:0|2:1|1:0;;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;9600;MYSPORTS,LEMANBLEU,LATELE,TELEB;20261105000013;NL;CH;Regular Season
+Fr;12.09.2025;19:45;SCL Tigers;HC Ambri-Piotta; 3:2; 2:1|0:1|1:0;;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;5685;MYSPORTS;20261105000014;NL;CH;Regular Season
+Sa;13.09.2025;19:45;HC Ambri-Piotta;Lausanne HC; 0:3; 0:1|0:1|0:1;;Ende;False;Gottardo Arena, 6775 Ambri TI;6333;MYSPORTS;20261105000015;NL;CH;Regular Season
+Sa;13.09.2025;19:45;Fribourg-Gottéron;EHC Biel-Bienne; 4:0; 1:0|0:0|3:0;;Ende;False;BCF Arena, 1700 Fribourg FR;9280;MYSPORTS;20261105000017;NL;CH;Regular Season
+Sa;13.09.2025;19:45;Genève-Servette HC;EHC Kloten; 4:2; 1:0|2:1|1:1;;Ende;False;Les Vernets, 1227 Les Acacias GE;5817;MYSPORTS;20261105000018;NL;CH;Regular Season
+Sa;13.09.2025;19:45;SC Rapperswil-Jona Lakers;SC Bern; 2:1; 2:1|0:0|0:0;;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;4678;MYSPORTS;20261105000019;NL;CH;Regular Season
+Sa;13.09.2025;19:45;ZSC Lions;HC Lugano; 5:1; 1:1|1:0|3:0;;Ende;False;Swiss Life Arena, 8048 Zürich ZH;10644;MYSPORTS;20261105000020;NL;CH;Regular Season
+Sa;13.09.2025;19:45;EV Zug;SCL Tigers; 3:4; 0:0|3:1|0:2|0:1;OT;Ende;False;OYM hall, 6303 Zug;7157;MYSPORTS;20261105000021;NL;CH;Regular Season
+So;14.09.2025;15:45;HC Davos;HC Ajoie; 6:0; 1:0|2:0|3:0;;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;4859;MYSPORTS;20261105000016;NL;CH;Regular Season
+Di;16.09.2025;19:45;HC Ajoie;SC Rapperswil-Jona Lakers; 2:4; 1:1|0:2|1:1;;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;3437;MYSPORTS;20261105000022;NL;CH;Regular Season
+Di;16.09.2025;19:45;SC Bern;HC Ambri-Piotta; 3:1; 0:1|2:0|1:0;;Ende;False;PostFinance Arena, 3014 Bern BE;14301;MYSPORTS,TELETICINO;20261105000023;NL;CH;Regular Season
+Di;16.09.2025;19:45;EHC Biel-Bienne;HC Lugano; 3:2; 0:0|0:1|2:1|1:0;OT;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;5321;MYSPORTS;20261105000024;NL;CH;Regular Season
+Di;16.09.2025;19:45;HC Davos;EHC Kloten; 4:2; 2:0|1:1|1:1;;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;3492;MYSPORTS;20261105000025;NL;CH;Regular Season
+Di;16.09.2025;19:45;Lausanne HC;Genève-Servette HC; 11:0; 2:0|6:0|3:0;;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;9525;MYSPORTS,LEMANBLEU,LATELE,TELEB;20261105000026;NL;CH;Regular Season
+Di;16.09.2025;19:45;SCL Tigers;ZSC Lions; 2:1; 1:0|0:0|1:1;;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;5100;MYSPORTS;20261105000027;NL;CH;Regular Season
+Di;16.09.2025;19:45;EV Zug;Fribourg-Gottéron; 4:5; 1:1|1:3|2:0|0:1;SO;Ende;False;OYM hall, 6303 Zug;6879;MYSPORTS;20261105000028;NL;CH;Regular Season
+Do;18.09.2025;19:45;Genève-Servette HC;Fribourg-Gottéron; 3:2; 0:1|1:0|2:1;;Ende;False;Les Vernets, 1227 Les Acacias GE;5217;MYSPORTS;20261105000031;NL;CH;Regular Season
+Fr;19.09.2025;19:45;HC Ambri-Piotta;ZSC Lions; 2:5; 1:3|1:1|0:1;;Ende;False;Gottardo Arena, 6775 Ambri TI;6309;MYSPORTS;20261105000029;NL;CH;Regular Season
+Fr;19.09.2025;19:45;EHC Kloten;EV Zug; 2:5; 0:2|1:0|1:3;;Ende;False;SWISS Arena, 8302 Kloten ZH;4482;MYSPORTS;20261105000032;NL;CH;Regular Season
+Fr;19.09.2025;19:45;HC Lugano;HC Ajoie; 2:0; 0:0|1:0|1:0;;Ende;False;Cornèr Arena, 6948 Porza Ti;4950;MYSPORTS;20261105000033;NL;CH;Regular Season
+Fr;19.09.2025;19:45;SC Rapperswil-Jona Lakers;Lausanne HC; 0:4; 0:0|0:2|0:2;;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;4157;MYSPORTS;20261105000034;NL;CH;Regular Season
+Fr;19.09.2025;19:45;SCL Tigers;HC Davos; 3:4; 1:0|1:4|1:0;;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;5633;MYSPORTS,TV24,3PLUS;20261105000035;NL;CH;Regular Season
+Sa;20.09.2025;19:45;EHC Biel-Bienne;HC Ambri-Piotta; 3:2; 1:0|1:2|0:0|1:0;SO;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;6039;MYSPORTS;20261105000037;NL;CH;Regular Season
+Sa;20.09.2025;19:45;HC Davos;HC Lugano; 2:0; 2:0|0:0|0:0;;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;4754;MYSPORTS;20261105000038;NL;CH;Regular Season
+Sa;20.09.2025;19:45;Fribourg-Gottéron;SCL Tigers; 5:2; 2:0|3:2|0:0;;Ende;False;BCF Arena, 1700 Fribourg FR;9280;MYSPORTS;20261105000039;NL;CH;Regular Season
+Sa;20.09.2025;19:45;Lausanne HC;EHC Kloten; 3:5; 2:3|0:2|1:0;;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;8933;MYSPORTS;20261105000040;NL;CH;Regular Season
+Sa;20.09.2025;19:45;ZSC Lions;Genève-Servette HC; 2:4; 1:1|0:0|1:3;;Ende;False;Swiss Life Arena, 8048 Zürich ZH;10177;MYSPORTS;20261105000041;NL;CH;Regular Season
+Sa;20.09.2025;19:45;EV Zug;SC Rapperswil-Jona Lakers; 0:6; 0:2|0:4|0:0;;Ende;False;OYM hall, 6303 Zug;6992;MYSPORTS;20261105000042;NL;CH;Regular Season
+Sa;20.09.2025;19:50;HC Ajoie;SC Bern; 4:0; 1:0|3:0|0:0;;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;4204;MYSPORTS;20261105000036;NL;CH;Regular Season
+Di;23.09.2025;19:45;Fribourg-Gottéron;ZSC Lions; 3:2; 0:1|2:1|0:0|1:0;SO;Ende;False;BCF Arena, 1700 Fribourg FR;9280;MYSPORTS;20261105000043;NL;CH;Regular Season
+Di;23.09.2025;19:45;Genève-Servette HC;HC Ambri-Piotta; 5:4; 1:2|3:2|1:0;;Ende;False;Les Vernets, 1227 Les Acacias GE;5063;MYSPORTS;20261105000044;NL;CH;Regular Season
+Di;23.09.2025;19:45;EHC Kloten;HC Ajoie; 2:1; 0:0|1:0|0:1|1:0;OT;Ende;False;SWISS Arena, 8302 Kloten ZH;3725;MYSPORTS;20261105000045;NL;CH;Regular Season
+Di;23.09.2025;19:45;HC Lugano;SC Bern; 0:3; 0:1|0:0|0:2;;Ende;False;Cornèr Arena, 6948 Porza Ti;4545;MYSPORTS;20261105000046;NL;CH;Regular Season
+Di;23.09.2025;19:45;Lausanne HC;SCL Tigers; 4:1; 2:0|2:0|0:1;;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;7718;MYSPORTS;20261105000047;NL;CH;Regular Season
+Di;23.09.2025;19:45;SC Rapperswil-Jona Lakers;EHC Biel-Bienne; 5:2; 2:0|0:1|3:1;;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;3854;MYSPORTS;20261105000048;NL;CH;Regular Season
+Di;23.09.2025;19:45;EV Zug;HC Davos; 3:4; 1:2|1:0|1:1|0:1;SO;Ende;False;OYM hall, 6303 Zug;7450;MYSPORTS;20261105000049;NL;CH;Regular Season
+Fr;26.09.2025;19:45;HC Ajoie;Fribourg-Gottéron; 2:5; 0:2|1:1|1:2;;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;4575;MYSPORTS;20261105000050;NL;CH;Regular Season
+Fr;26.09.2025;19:45;HC Ambri-Piotta;EV Zug; 0:4; 0:0|0:1|0:3;;Ende;False;Gottardo Arena, 6775 Ambri TI;6328;MYSPORTS;20261105000051;NL;CH;Regular Season
+Fr;26.09.2025;19:45;SC Bern;EHC Kloten; 0:1; 0:1|0:0|0:0;;Ende;False;PostFinance Arena, 3014 Bern BE;15421;MYSPORTS;20261105000052;NL;CH;Regular Season
+Fr;26.09.2025;19:45;Genève-Servette HC;SC Rapperswil-Jona Lakers; 3:4; 1:2|2:1|0:1;;Ende;False;Les Vernets, 1227 Les Acacias GE;5387;MYSPORTS;20261105000053;NL;CH;Regular Season
+Fr;26.09.2025;19:45;HC Lugano;Lausanne HC; 4:5; 1:1|2:2|1:2;;Ende;False;Cornèr Arena, 6948 Porza Ti;4702;MYSPORTS;20261105000054;NL;CH;Regular Season
+Fr;26.09.2025;19:45;SCL Tigers;EHC Biel-Bienne; 3:4; 0:1|2:1|1:1|0:1;SO;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;5605;MYSPORTS,TV24,3PLUS;20261105000055;NL;CH;Regular Season
+Fr;26.09.2025;19:45;ZSC Lions;HC Davos; 2:5; 1:3|1:0|0:2;;Ende;False;Swiss Life Arena, 8048 Zürich ZH;12000;MYSPORTS;20261105000056;NL;CH;Regular Season
+Sa;27.09.2025;19:45;EHC Biel-Bienne;HC Ajoie; 5:4; 1:0|1:1|2:3|1:0;SO;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;6151;MYSPORTS;20261105000057;NL;CH;Regular Season
+Sa;27.09.2025;19:45;HC Davos;Genève-Servette HC; 3:2; 1:2|0:0|1:0|1:0;SO;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;4914;MYSPORTS;20261105000058;NL;CH;Regular Season
+Sa;27.09.2025;19:45;Fribourg-Gottéron;HC Ambri-Piotta; 3:1; 1:1|1:0|1:0;;Ende;False;BCF Arena, 1700 Fribourg FR;9280;MYSPORTS;20261105000059;NL;CH;Regular Season
+Sa;27.09.2025;19:45;EHC Kloten;SCL Tigers; 2:3; 0:1|1:1|1:0|0:1;SO;Ende;False;SWISS Arena, 8302 Kloten ZH;4209;MYSPORTS;20261105000060;NL;CH;Regular Season
+Sa;27.09.2025;19:45;SC Rapperswil-Jona Lakers;HC Lugano; 1:4; 0:0|1:2|0:2;;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;4938;MYSPORTS;20261105000062;NL;CH;Regular Season
+Sa;27.09.2025;19:45;EV Zug;ZSC Lions; 2:1; 0:1|0:0|1:0|1:0;OT;Ende;False;OYM hall, 6303 Zug;7450;MYSPORTS,TV24,3PLUS;20261105000063;NL;CH;Regular Season
+So;28.09.2025;14:00;Lausanne HC;SC Bern; 6:3; 3:1|1:1|2:1;;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;9600;MYSPORTS;20261105000061;NL;CH;Regular Season
+Di;30.09.2025;19:45;HC Ajoie;Lausanne HC; 1:2; 1:2|0:0|0:0;;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;3761;MYSPORTS;20261105000064;NL;CH;Regular Season
+Di;30.09.2025;19:45;SC Bern;Fribourg-Gottéron; 1:5; 0:0|1:3|0:2;;Ende;False;PostFinance Arena, 3014 Bern BE;15093;MYSPORTS,LEMANBLEU,LATELE,TELEB;20261105000065;NL;CH;Regular Season
+Di;30.09.2025;19:45;EHC Biel-Bienne;EV Zug; 2:0; 0:0|1:0|1:0;;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;5481;MYSPORTS;20261105000066;NL;CH;Regular Season
+Di;30.09.2025;19:45;HC Lugano;HC Ambri-Piotta; 1:2; 0:1|1:0|0:1;;Ende;False;Cornèr Arena, 6948 Porza Ti;6733;MYSPORTS,TELETICINO;20261105000067;NL;CH;Regular Season
+Di;30.09.2025;19:45;SC Rapperswil-Jona Lakers;HC Davos; 4:3; 2:1|1:0|0:2|1:0;SO;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;5727;MYSPORTS;20261105000068;NL;CH;Regular Season
+Di;30.09.2025;19:45;SCL Tigers;Genève-Servette HC; 3:4; 0:1|1:1|2:2;;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;5022;MYSPORTS;20261105000069;NL;CH;Regular Season
+Di;30.09.2025;19:45;ZSC Lions;EHC Kloten; 2:0; 2:0|0:0|0:0;;Ende;False;Swiss Life Arena, 8048 Zürich ZH;11343;MYSPORTS;20261105000070;NL;CH;Regular Season
+Mi;01.10.2025;19:45;Lausanne HC;EHC Kloten; 2:1; 2:0|0:1|0:0;;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;7918;MYSPORTS;20261105000201;NL;CH;Regular Season
+Fr;03.10.2025;19:45;Fribourg-Gottéron;SC Rapperswil-Jona Lakers; 2:3; 1:2|1:1|0:0;;Ende;False;BCF Arena, 1700 Fribourg FR;9280;MYSPORTS;20261105000072;NL;CH;Regular Season
+Fr;03.10.2025;19:45;Genève-Servette HC;HC Lugano; 1:5; 1:1|0:2|0:2;;Ende;False;Les Vernets, 1227 Les Acacias GE;5584;MYSPORTS;20261105000073;NL;CH;Regular Season
+Fr;03.10.2025;19:45;EHC Kloten;EHC Biel-Bienne; 2:1; 0:1|1:0|1:0;;Ende;False;SWISS Arena, 8302 Kloten ZH;4053;MYSPORTS;20261105000074;NL;CH;Regular Season
+Fr;03.10.2025;19:45;SCL Tigers;HC Ajoie; 1:0; 1:0|0:0|0:0;;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;5411;MYSPORTS;20261105000075;NL;CH;Regular Season
+Fr;03.10.2025;19:45;ZSC Lions;SC Bern; 7:3; 2:2|2:0|3:1;;Ende;False;Swiss Life Arena, 8048 Zürich ZH;10906;MYSPORTS,TV24,3PLUS;20261105000076;NL;CH;Regular Season
+Fr;03.10.2025;19:45;EV Zug;Lausanne HC; 4:2; 2:1|1:0|1:1;;Ende;False;OYM hall, 6303 Zug;7140;MYSPORTS;20261105000077;NL;CH;Regular Season
+Sa;04.10.2025;19:45;HC Ajoie;EV Zug; 1:3; 0:1|1:1|0:1;;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;4157;MYSPORTS;20261105000078;NL;CH;Regular Season
+Sa;04.10.2025;19:45;SC Bern;SCL Tigers; 2:1; 1:0|1:1|0:0;;Ende;False;PostFinance Arena, 3014 Bern BE;16131;MYSPORTS;20261105000079;NL;CH;Regular Season
+Sa;04.10.2025;19:45;HC Davos;Fribourg-Gottéron; 4:2; 1:1|0:0|3:1;;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;5727;MYSPORTS;20261105000081;NL;CH;Regular Season
+Sa;04.10.2025;19:45;Lausanne HC;ZSC Lions; 1:3; 1:0|0:2|0:1;;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;9600;MYSPORTS;20261105000083;NL;CH;Regular Season
+Sa;04.10.2025;19:45;SC Rapperswil-Jona Lakers;HC Ambri-Piotta; 4:2; 2:0|1:0|1:2;;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;5075;MYSPORTS;20261105000084;NL;CH;Regular Season
+So;05.10.2025;14:00;EHC Biel-Bienne;Genève-Servette HC; 8:0; 1:0|3:0|4:0;;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;6325;MYSPORTS;20261105000080;NL;CH;Regular Season
+So;05.10.2025;14:00;HC Lugano;EHC Kloten; 5:4; 1:1|1:2|2:1|1:0;SO;Ende;False;Cornèr Arena, 6948 Porza Ti;5468;MYSPORTS;20261105000082;NL;CH;Regular Season
+So;05.10.2025;15:45;HC Ambri-Piotta;HC Davos; 4:6; 1:2|2:1|1:3;;Ende;False;Gottardo Arena, 6775 Ambri TI;6605;MYSPORTS;20261105000071;NL;CH;Regular Season
+Do;09.10.2025;20:00;Fribourg-Gottéron;EHC Kloten; 4:3; 0:0|1:0|2:3|1:0;SO;Ende;False;BCF Arena, 1700 Fribourg FR;9280;MYSPORTS,TV24,3PLUS;20261105000087;NL;CH;Regular Season
+Fr;10.10.2025;19:45;HC Ambri-Piotta;HC Ajoie; 3:2; 1:1|2:0|0:1;;Ende;False;Gottardo Arena, 6775 Ambri TI;6546;MYSPORTS;20261105000085;NL;CH;Regular Season
+Fr;10.10.2025;19:45;HC Lugano;SCL Tigers; 2:5; 1:1|1:1|0:3;;Ende;False;Cornèr Arena, 6948 Porza Ti;4811;MYSPORTS;20261105000088;NL;CH;Regular Season
+Fr;10.10.2025;19:45;Lausanne HC;EHC Biel-Bienne; 3:4; 0:2|3:1|0:1;;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;9505;MYSPORTS,TV24,LEMANBLEU,3PLUS,LATELE,TELEB;20261105000089;NL;CH;Regular Season
+Fr;10.10.2025;19:45;SC Rapperswil-Jona Lakers;ZSC Lions; 3:2; 2:0|1:2|0:0;;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;5962;MYSPORTS;20261105000090;NL;CH;Regular Season
+Fr;10.10.2025;19:45;EV Zug;Genève-Servette HC; 1:4; 0:0|0:2|1:2;;Ende;False;OYM hall, 6303 Zug;7034;MYSPORTS;20261105000091;NL;CH;Regular Season
+Sa;11.10.2025;19:45;SC Bern;EV Zug; 3:0; 0:0|2:0|1:0;;Ende;False;PostFinance Arena, 3014 Bern BE;16322;MYSPORTS,TV24,3PLUS;20261105000093;NL;CH;Regular Season
+Sa;11.10.2025;19:45;EHC Biel-Bienne;Fribourg-Gottéron; 2:1; 0:0|1:1|0:0|1:0;SO;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;6556;MYSPORTS;20261105000094;NL;CH;Regular Season
+Sa;11.10.2025;19:45;EHC Kloten;HC Davos; 2:3; 1:0|1:1|0:2;;Ende;False;SWISS Arena, 8302 Kloten ZH;6151;MYSPORTS;20261105000096;NL;CH;Regular Season
+Sa;11.10.2025;19:45;SCL Tigers;SC Rapperswil-Jona Lakers; 1:4; 0:2|0:1|1:1;;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;5726;MYSPORTS;20261105000097;NL;CH;Regular Season
+Sa;11.10.2025;19:45;ZSC Lions;HC Ambri-Piotta; 1:2; 1:1|0:0|0:1;;Ende;False;Swiss Life Arena, 8048 Zürich ZH;11078;MYSPORTS,TELETICINO;20261105000098;NL;CH;Regular Season
+So;12.10.2025;14:00;HC Ajoie;HC Lugano; 1:2; 1:0|0:1|0:1;;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;4720;MYSPORTS;20261105000092;NL;CH;Regular Season
+So;12.10.2025;14:01;Genève-Servette HC;Lausanne HC; 5:3; 1:1|3:2|1:0;;Ende;False;Les Vernets, 1227 Les Acacias GE;7135;MYSPORTS;20261105000095;NL;CH;Regular Season
+So;12.10.2025;15:45;HC Davos;SC Bern; 2:1; 2:0|0:0|0:1;;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;6547;MYSPORTS;20261105000086;NL;CH;Regular Season
+Do;16.10.2025;20:00;HC Lugano;HC Davos; 0:3; 0:1|0:0|0:2;;Ende;False;Cornèr Arena, 6948 Porza Ti;5696;MYSPORTS,TV24,3PLUS;20261105000104;NL;CH;Regular Season
+Fr;17.10.2025;19:45;HC Ajoie;EHC Kloten; 0:3; 0:0|0:1|0:2;;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;4141;MYSPORTS;20261105000099;NL;CH;Regular Season
+Fr;17.10.2025;19:45;HC Ambri-Piotta;SCL Tigers; 2:4; 1:2|1:2|0:0;;Ende;False;Gottardo Arena, 6775 Ambri TI;6356;MYSPORTS,TV24,3PLUS;20261105000100;NL;CH;Regular Season
+Fr;17.10.2025;19:45;SC Bern;Lausanne HC; 0:2; 0:1|0:0|0:1;;Ende;False;PostFinance Arena, 3014 Bern BE;14793;MYSPORTS;20261105000101;NL;CH;Regular Season
+Fr;17.10.2025;19:45;EHC Biel-Bienne;SC Rapperswil-Jona Lakers; 4:6; 1:1|3:2|0:3;;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;5931;MYSPORTS;20261105000102;NL;CH;Regular Season
+Fr;17.10.2025;19:45;Fribourg-Gottéron;Genève-Servette HC; 6:2; 2:0|3:1|1:1;;Ende;False;BCF Arena, 1700 Fribourg FR;9280;MYSPORTS;20261105000103;NL;CH;Regular Season
+Fr;17.10.2025;19:45;ZSC Lions;EV Zug; 2:3; 0:1|1:1|1:0|0:1;SO;Ende;False;Swiss Life Arena, 8048 Zürich ZH;11529;MYSPORTS;20261105000105;NL;CH;Regular Season
+Sa;18.10.2025;19:45;HC Davos;ZSC Lions; 3:1; 1:0|0:0|2:1;;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;6547;MYSPORTS;20261105000106;NL;CH;Regular Season
+Sa;18.10.2025;19:45;Genève-Servette HC;SC Bern; 2:1; 0:0|0:0|1:1|1:0;OT;Ende;False;Les Vernets, 1227 Les Acacias GE;7135;MYSPORTS;20261105000107;NL;CH;Regular Season
+Sa;18.10.2025;19:45;EHC Kloten;HC Ambri-Piotta; 1:3; 0:1|0:0|1:2;;Ende;False;SWISS Arena, 8302 Kloten ZH;5474;MYSPORTS;20261105000108;NL;CH;Regular Season
+Sa;18.10.2025;19:45;Lausanne HC;HC Lugano; 1:5; 1:2|0:1|0:2;;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;9600;MYSPORTS;20261105000109;NL;CH;Regular Season
+Sa;18.10.2025;19:45;SCL Tigers;Fribourg-Gottéron; 6:0; 3:0|2:0|1:0;;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;6000;MYSPORTS;20261105000111;NL;CH;Regular Season
+So;19.10.2025;14:00;SC Rapperswil-Jona Lakers;HC Ajoie; 3:2; 1:1|2:0|0:1;;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;5619;MYSPORTS;20261105000110;NL;CH;Regular Season
+So;19.10.2025;14:00;EV Zug;EHC Biel-Bienne; 4:3; 2:0|2:0|0:3;;Ende;False;OYM hall, 6303 Zug;7450;MYSPORTS;20261105000112;NL;CH;Regular Season
+Di;21.10.2025;19:45;HC Ajoie;SCL Tigers; 2:1; 1:0|1:0|0:1;;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;3498;MYSPORTS;20261105000113;NL;CH;Regular Season
+Di;21.10.2025;19:45;HC Ambri-Piotta;SC Bern; 0:5; 0:1|0:4|0:0;;Ende;False;Gottardo Arena, 6775 Ambri TI;6031;MYSPORTS;20261105000114;NL;CH;Regular Season
+Di;21.10.2025;19:45;HC Davos;EHC Biel-Bienne; 4:3; 0:0|2:1|1:2|1:0;OT;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;4099;MYSPORTS;20261105000115;NL;CH;Regular Season
+Di;21.10.2025;19:45;Fribourg-Gottéron;EV Zug; 5:2; 1:0|2:1|2:1;;Ende;False;BCF Arena, 1700 Fribourg FR;9372;MYSPORTS;20261105000116;NL;CH;Regular Season
+Di;21.10.2025;19:45;EHC Kloten;Genève-Servette HC; 2:3; 2:1|0:0|0:1|0:1;SO;Ende;False;SWISS Arena, 8302 Kloten ZH;3721;MYSPORTS;20261105000117;NL;CH;Regular Season
+Di;21.10.2025;19:45;HC Lugano;ZSC Lions; 5:1; 3:1|2:0|0:0;;Ende;False;Cornèr Arena, 6948 Porza Ti;4958;MYSPORTS;20261105000118;NL;CH;Regular Season
+Di;21.10.2025;19:45;Lausanne HC;SC Rapperswil-Jona Lakers; 2:1; 0:0|1:1|0:0|1:0;OT;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;9223;MYSPORTS;20261105000119;NL;CH;Regular Season
+Do;23.10.2025;19:45;EV Zug;HC Ajoie; 8:3; 1:0|3:3|4:0;;Ende;False;OYM hall, 6303 Zug;6886;MYSPORTS;20261105000133;NL;CH;Regular Season
+Fr;24.10.2025;19:45;HC Ajoie;HC Davos; 2:4; 1:1|1:0|0:3;;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;4092;MYSPORTS;20261105000120;NL;CH;Regular Season
+Fr;24.10.2025;19:45;SC Bern;HC Lugano; 1:4; 0:2|1:1|0:1;;Ende;False;PostFinance Arena, 3014 Bern BE;14502;MYSPORTS;20261105000122;NL;CH;Regular Season
+Fr;24.10.2025;19:45;EHC Biel-Bienne;EHC Kloten; 5:1; 1:0|1:0|3:1;;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;6021;MYSPORTS;20261105000123;NL;CH;Regular Season
+Fr;24.10.2025;19:45;SC Rapperswil-Jona Lakers;EV Zug; 2:6; 2:2|0:2|0:2;;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;5225;MYSPORTS;20261105000124;NL;CH;Regular Season
+Fr;24.10.2025;19:45;SCL Tigers;Lausanne HC; 1:2; 0:0|1:1|0:0|0:1;SO;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;5406;MYSPORTS;20261105000125;NL;CH;Regular Season
+Fr;24.10.2025;19:45;ZSC Lions;Fribourg-Gottéron; 1:2; 1:1|0:0|0:0|0:1;OT;Ende;False;Swiss Life Arena, 8048 Zürich ZH;11651;MYSPORTS,TV24,3PLUS;20261105000126;NL;CH;Regular Season
+Fr;24.10.2025;20:20;HC Ambri-Piotta;Genève-Servette HC; 5:2; 5:1|0:1|0:0;;Ende;False;Gottardo Arena, 6775 Ambri TI;6227;MYSPORTS;20261105000121;NL;CH;Regular Season
+Sa;25.10.2025;19:45;HC Davos;SCL Tigers; 5:3; 1:1|1:0|3:2;;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;6547;MYSPORTS;20261105000127;NL;CH;Regular Season
+Sa;25.10.2025;19:45;Fribourg-Gottéron;SC Bern; 1:2; 0:0|0:1|1:0|0:1;SO;Ende;False;BCF Arena, 1700 Fribourg FR;9372;MYSPORTS;20261105000128;NL;CH;Regular Season
+Sa;25.10.2025;19:45;Genève-Servette HC;EHC Biel-Bienne; 6:0; 4:0|0:0|2:0;;Ende;False;Les Vernets, 1227 Les Acacias GE;6704;MYSPORTS;20261105000129;NL;CH;Regular Season
+Sa;25.10.2025;19:45;EHC Kloten;ZSC Lions; 1:4; 0:0|0:1|1:3;;Ende;False;SWISS Arena, 8302 Kloten ZH;7453;MYSPORTS;20261105000130;NL;CH;Regular Season
+Sa;25.10.2025;19:45;HC Lugano;SC Rapperswil-Jona Lakers; 3:0; 1:0|2:0|0:0;;Ende;False;Cornèr Arena, 6948 Porza Ti;5495;MYSPORTS;20261105000131;NL;CH;Regular Season
+Sa;25.10.2025;19:45;Lausanne HC;HC Ambri-Piotta; 5:1; 2:0|1:0|2:1;;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;9600;MYSPORTS;20261105000132;NL;CH;Regular Season
+Di;28.10.2025;19:45;HC Ambri-Piotta;HC Lugano; 2:5; 1:0|1:2|0:3;;Ende;False;Gottardo Arena, 6775 Ambri TI;6775;MYSPORTS,TELETICINO;20261105000134;NL;CH;Regular Season
+Di;28.10.2025;19:45;SC Bern;HC Ajoie; 4:5; 1:2|1:1|2:2;;Ende;False;PostFinance Arena, 3014 Bern BE;13468;MYSPORTS;20261105000135;NL;CH;Regular Season
+Di;28.10.2025;19:45;EHC Biel-Bienne;Lausanne HC; 6:1; 1:0|2:1|3:0;;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;5627;MYSPORTS;20261105000136;NL;CH;Regular Season
+Di;28.10.2025;19:45;Genève-Servette HC;HC Davos; 7:0; 4:0|1:0|2:0;;Ende;False;Les Vernets, 1227 Les Acacias GE;6171;MYSPORTS;20261105000137;NL;CH;Regular Season
+Di;28.10.2025;19:45;EHC Kloten;Fribourg-Gottéron; 4:2; 1:2|1:0|2:0;;Ende;False;SWISS Arena, 8302 Kloten ZH;4081;MYSPORTS;20261105000138;NL;CH;Regular Season
+Di;28.10.2025;19:45;SCL Tigers;EV Zug; 4:2; 0:0|2:0|2:2;;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;5103;MYSPORTS;20261105000139;NL;CH;Regular Season
+Di;28.10.2025;19:45;ZSC Lions;SC Rapperswil-Jona Lakers; 7:0; 2:0|4:0|1:0;;Ende;False;Swiss Life Arena, 8048 Zürich ZH;10949;MYSPORTS;20261105000140;NL;CH;Regular Season
+Mi;29.10.2025;19:45;Lausanne HC;HC Davos; 3:2; 1:1|2:0|0:1;;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;9600;MYSPORTS;20261105000144;NL;CH;Regular Season
+Do;30.10.2025;19:45;Genève-Servette HC;EV Zug; 0:1; 0:1|0:0|0:0;;Ende;False;Les Vernets, 1227 Les Acacias GE;5583;MYSPORTS;20261105000152;NL;CH;Regular Season
+Fr;31.10.2025;19:45;HC Ajoie;HC Ambri-Piotta; 4:5; 3:1|1:3|0:1;;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;4547;MYSPORTS;20261105000141;NL;CH;Regular Season
+Fr;31.10.2025;19:45;EHC Biel-Bienne;SC Bern; 5:6; 0:2|3:2|2:1|0:1;SO;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;6556;MYSPORTS,TV24,3PLUS;20261105000142;NL;CH;Regular Season
+Fr;31.10.2025;19:45;SC Rapperswil-Jona Lakers;Fribourg-Gottéron; 0:1; 0:0|0:0|0:0|0:1;SO;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;4982;MYSPORTS;20261105000145;NL;CH;Regular Season
+Fr;31.10.2025;19:45;ZSC Lions;SCL Tigers; 4:2; 1:0|2:1|1:1;;Ende;False;Swiss Life Arena, 8048 Zürich ZH;10673;MYSPORTS;20261105000146;NL;CH;Regular Season
+Sa;01.11.2025;19:45;HC Lugano;Genève-Servette HC; 6:2; 2:0|1:1|3:1;;Ende;False;Cornèr Arena, 6948 Porza Ti;5300;MYSPORTS;20261105000143;NL;CH;Regular Season
+Sa;01.11.2025;19:45;HC Ambri-Piotta;EHC Biel-Bienne; 3:1; 0:0|1:1|2:0;;Ende;False;Gottardo Arena, 6775 Ambri TI;6512;MYSPORTS;20261105000148;NL;CH;Regular Season
+Sa;01.11.2025;19:45;SC Bern;ZSC Lions; 0:3; 0:0|0:0|0:3;;Ende;False;PostFinance Arena, 3014 Bern BE;15645;MYSPORTS,TV24,3PLUS;20261105000149;NL;CH;Regular Season
+Sa;01.11.2025;19:45;HC Davos;SC Rapperswil-Jona Lakers; 6:1; 0:0|2:1|4:0;;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;6547;MYSPORTS;20261105000150;NL;CH;Regular Season
+Sa;01.11.2025;19:45;EHC Kloten;Lausanne HC; 2:1; 1:0|1:0|0:1;;Ende;False;SWISS Arena, 8302 Kloten ZH;4481;MYSPORTS;20261105000153;NL;CH;Regular Season
+Mi;12.11.2025;19:45;Fribourg-Gottéron;HC Ajoie; 5:1; 2:1|2:0|1:0;;Ende;False;BCF Arena, 1700 Fribourg FR;9372;MYSPORTS;20261105000151;NL;CH;Regular Season
+Mi;12.11.2025;19:45;SCL Tigers;HC Lugano; 3:0; 1:0|2:0|0:0;;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;5234;MYSPORTS;20261105000154;NL;CH;Regular Season
+Do;13.11.2025;20:00;Genève-Servette HC;SCL Tigers; 3:1; 1:0|0:1|2:0;;Ende;False;Les Vernets, 1227 Les Acacias GE;5841;MYSPORTS,TV24,3PLUS;20261105000158;NL;CH;Regular Season
+Fr;14.11.2025;19:45;SC Bern;SC Rapperswil-Jona Lakers; 5:2; 0:1|3:0|2:1;;Ende;False;PostFinance Arena, 3014 Bern BE;14975;MYSPORTS;20261105000155;NL;CH;Regular Season
+Fr;14.11.2025;19:45;EHC Biel-Bienne;ZSC Lions; 0:2; 0:1|0:0|0:1;;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;6239;MYSPORTS;20261105000156;NL;CH;Regular Season
+Fr;14.11.2025;19:45;Fribourg-Gottéron;HC Davos; 5:3; 1:2|0:0|4:1;;Ende;False;BCF Arena, 1700 Fribourg FR;9372;MYSPORTS,TV24,3PLUS;20261105000157;NL;CH;Regular Season
+Fr;14.11.2025;19:45;EHC Kloten;HC Lugano; 1:2; 1:2|0:0|0:0;;Ende;False;SWISS Arena, 8302 Kloten ZH;4601;MYSPORTS;20261105000159;NL;CH;Regular Season
+Fr;14.11.2025;19:45;Lausanne HC;HC Ajoie; 3:2; 0:1|2:0|0:1|1:0;OT;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;9600;MYSPORTS;20261105000160;NL;CH;Regular Season
+Fr;14.11.2025;19:45;EV Zug;HC Ambri-Piotta; 4:2; 0:2|1:0|3:0;;Ende;False;OYM hall, 6303 Zug;7450;MYSPORTS;20261105000161;NL;CH;Regular Season
+Sa;15.11.2025;19:45;HC Ajoie;Genève-Servette HC; 2:0; 1:0|0:0|1:0;;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;4324;MYSPORTS;20261105000162;NL;CH;Regular Season
+Sa;15.11.2025;19:45;HC Ambri-Piotta;Fribourg-Gottéron; 4:2; 1:0|0:2|3:0;;Ende;False;Gottardo Arena, 6775 Ambri TI;6775;MYSPORTS;20261105000163;NL;CH;Regular Season
+Sa;15.11.2025;19:45;HC Lugano;EHC Biel-Bienne; 6:0; 1:0|3:0|2:0;;Ende;False;Cornèr Arena, 6948 Porza Ti;5507;MYSPORTS;20261105000165;NL;CH;Regular Season
+Sa;15.11.2025;19:45;SC Rapperswil-Jona Lakers;EHC Kloten; 3:2; 0:0|0:2|2:0|1:0;OT;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;5352;MYSPORTS;20261105000166;NL;CH;Regular Season
+Sa;15.11.2025;19:45;SCL Tigers;SC Bern; 3:4; 0:1|2:1|1:1|0:1;OT;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;6000;MYSPORTS;20261105000167;NL;CH;Regular Season
+So;16.11.2025;15:45;HC Davos;EV Zug; 5:1; 1:0|2:1|2:0;;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;6547;MYSPORTS;20261105000164;NL;CH;Regular Season
+So;16.11.2025;15:45;ZSC Lions;Lausanne HC; 1:2; 1:0|0:0|0:1|0:1;SO;Ende;False;Swiss Life Arena, 8048 Zürich ZH;12000;MYSPORTS;20261105000168;NL;CH;Regular Season
+Mi;19.11.2025;19:45;HC Ajoie;EHC Biel-Bienne; 3:4; 2:0|1:2|0:1|0:1;OT;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;4178;MYSPORTS,LEMANBLEU,LATELE,TELEB;20261105000176;NL;CH;Regular Season
+Do;20.11.2025;19:45;HC Lugano;Fribourg-Gottéron; 0:4; 0:1|0:1|0:2;;Ende;False;Cornèr Arena, 6948 Porza Ti;5512;MYSPORTS;20261105000180;NL;CH;Regular Season
+Do;20.11.2025;20:00;HC Davos;HC Ambri-Piotta; 4:6; 1:2|2:1|1:3;;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;4505;MYSPORTS,TV24,3PLUS;20261105000170;NL;CH;Regular Season
+Fr;21.11.2025;19:45;EHC Biel-Bienne;SCL Tigers; 6:5; 1:2|3:2|2:1;;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;6436;MYSPORTS;20261105000169;NL;CH;Regular Season
+Fr;21.11.2025;19:45;Fribourg-Gottéron;Lausanne HC; 2:1; 0:0|1:1|1:0;;Ende;False;BCF Arena, 1700 Fribourg FR;9372;MYSPORTS,LEMANBLEU,LATELE,TELEB;20261105000171;NL;CH;Regular Season
+Fr;21.11.2025;19:45;EHC Kloten;SC Bern; 4:2; 1:0|2:1|1:1;;Ende;False;SWISS Arena, 8302 Kloten ZH;5127;MYSPORTS;20261105000172;NL;CH;Regular Season
+Fr;21.11.2025;19:45;SC Rapperswil-Jona Lakers;Genève-Servette HC; 2:5; 1:2|0:0|1:3;;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;4512;MYSPORTS;20261105000173;NL;CH;Regular Season
+Fr;21.11.2025;19:45;ZSC Lions;HC Ajoie; 2:3; 2:0|0:2|0:1;;Ende;False;Swiss Life Arena, 8048 Zürich ZH;10810;MYSPORTS;20261105000174;NL;CH;Regular Season
+Fr;21.11.2025;19:45;EV Zug;HC Lugano; 2:3; 0:1|2:1|0:1;;Ende;False;OYM hall, 6303 Zug;7450;MYSPORTS,TELETICINO,TV24,3PLUS;20261105000175;NL;CH;Regular Season
+Sa;22.11.2025;19:45;HC Ambri-Piotta;SC Rapperswil-Jona Lakers; 1:5; 0:3|0:2|1:0;;Ende;False;Gottardo Arena, 6775 Ambri TI;6590;MYSPORTS;20261105000177;NL;CH;Regular Season
+Sa;22.11.2025;19:45;SC Bern;HC Davos; 0:3; 0:0|0:0|0:3;;Ende;False;PostFinance Arena, 3014 Bern BE;16002;MYSPORTS;20261105000178;NL;CH;Regular Season
+Sa;22.11.2025;19:45;Genève-Servette HC;ZSC Lions; 4:1; 1:1|2:0|1:0;;Ende;False;Les Vernets, 1227 Les Acacias GE;6407;MYSPORTS;20261105000179;NL;CH;Regular Season
+Sa;22.11.2025;19:45;Lausanne HC;EV Zug; 5:2; 0:1|2:1|3:0;;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;9600;MYSPORTS;20261105000181;NL;CH;Regular Season
+Sa;22.11.2025;19:45;SCL Tigers;EHC Kloten; 6:1; 4:1|1:0|1:0;;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;6000;MYSPORTS;20261105000182;NL;CH;Regular Season
+Di;25.11.2025;19:45;EHC Biel-Bienne;EHC Kloten; 3:1; 1:1|0:0|2:0;;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;5545;MYSPORTS;20261105000184;NL;CH;Regular Season
+Di;25.11.2025;19:45;Fribourg-Gottéron;Genève-Servette HC; 2:5; 1:0|1:1|0:4;;Ende;False;BCF Arena, 1700 Fribourg FR;9372;MYSPORTS;20261105000186;NL;CH;Regular Season
+Di;25.11.2025;19:45;SC Rapperswil-Jona Lakers;Lausanne HC; 3:4; 1:3|1:1|1:0;;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;4256;MYSPORTS;20261105000187;NL;CH;Regular Season
+Di;25.11.2025;19:45;ZSC Lions;HC Ambri-Piotta; 3:2; 0:0|0:1|2:1|1:0;OT;Ende;False;Swiss Life Arena, 8048 Zürich ZH;11184;MYSPORTS;20261105000188;NL;CH;Regular Season
+Di;25.11.2025;19:45;EV Zug;SC Bern; 4:2; 2:0|1:2|1:0;;Ende;False;OYM hall, 6303 Zug;7179;MYSPORTS;20261105000189;NL;CH;Regular Season
+Di;25.11.2025;19:45;HC Davos;HC Ajoie; 8:0; 2:0|4:0|2:0;;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;3904;MYSPORTS;20261105000226;NL;CH;Regular Season
+Mi;26.11.2025;19:45;Lausanne HC;SCL Tigers; 6:4; 1:0|3:1|2:3;;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;9600;MYSPORTS;20261105000313;NL;CH;Regular Season
+Do;27.11.2025;19:45;EV Zug;Genève-Servette HC; 3:1; 2:0|0:1|1:0;;Ende;False;OYM hall, 6303 Zug;7103;MYSPORTS;20261105000196;NL;CH;Regular Season
+Fr;28.11.2025;19:45;SC Bern;ZSC Lions; 2:1; 0:0|1:1|1:0;;Ende;False;PostFinance Arena, 3014 Bern BE;14756;MYSPORTS;20261105000190;NL;CH;Regular Season
+Fr;28.11.2025;19:45;EHC Biel-Bienne;Fribourg-Gottéron; 2:3; 0:2|1:1|1:0;;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;6472;MYSPORTS,TV24,3PLUS;20261105000191;NL;CH;Regular Season
+Fr;28.11.2025;19:45;HC Davos;SC Rapperswil-Jona Lakers; 4:3; 0:1|1:1|2:1|1:0;SO;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;5073;MYSPORTS;20261105000192;NL;CH;Regular Season
+Fr;28.11.2025;19:45;EHC Kloten;HC Ajoie; 2:3; 1:2|0:1|1:0;;Ende;False;SWISS Arena, 8302 Kloten ZH;4107;MYSPORTS;20261105000193;NL;CH;Regular Season
+Fr;28.11.2025;19:45;HC Lugano;HC Ambri-Piotta; 5:1; 1:1|3:0|1:0;;Ende;False;Cornèr Arena, 6948 Porza Ti;6733;MYSPORTS,TELETICINO;20261105000194;NL;CH;Regular Season
+Sa;29.11.2025;19:45;HC Ajoie;EV Zug; 3:2; 0:1|0:1|2:0|1:0;SO;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;4708;MYSPORTS;20261105000197;NL;CH;Regular Season
+Sa;29.11.2025;19:45;HC Ambri-Piotta;EHC Biel-Bienne; 5:4; 2:2|1:2|1:0|1:0;SO;Ende;False;Gottardo Arena, 6775 Ambri TI;6429;MYSPORTS;20261105000198;NL;CH;Regular Season
+Sa;29.11.2025;19:45;Fribourg-Gottéron;SC Bern; 2:1; 0:0|0:0|2:1;;Ende;False;BCF Arena, 1700 Fribourg FR;9372;MYSPORTS,TV24,3PLUS;20261105000199;NL;CH;Regular Season
+Sa;29.11.2025;19:45;Genève-Servette HC;HC Davos; 3:2; 0:0|1:0|1:2|1:0;OT;Ende;False;Les Vernets, 1227 Les Acacias GE;6722;MYSPORTS;20261105000200;NL;CH;Regular Season
+Sa;29.11.2025;19:45;ZSC Lions;SCL Tigers; 2:3; 1:1|0:0|1:1|0:1;OT;Ende;False;Swiss Life Arena, 8048 Zürich ZH;11559;MYSPORTS;20261105000203;NL;CH;Regular Season
+So;30.11.2025;15:45;SCL Tigers;Lausanne HC; 3:4; 0:1|1:0|2:3;;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;6000;MYSPORTS;20261105000195;NL;CH;Regular Season
+So;30.11.2025;15:45;SC Rapperswil-Jona Lakers;HC Lugano; 3:2; 0:1|0:1|2:0|1:0;SO;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;5798;MYSPORTS;20261105000202;NL;CH;Regular Season
+Mi;03.12.2025;19:45;SC Bern;EHC Biel-Bienne; 6:2; 2:1|1:1|3:0;;Ende;False;PostFinance Arena, 3014 Bern BE;15027;MYSPORTS,LEMANBLEU,LATELE,TELEB;20261105000030;NL;CH;Regular Season
+Mi;03.12.2025;19:45;Fribourg-Gottéron;SC Rapperswil-Jona Lakers; 2:4; 0:1|0:1|2:2;;Ende;False;BCF Arena, 1700 Fribourg FR;9372;MYSPORTS;20261105000242;NL;CH;Regular Season
+Mi;03.12.2025;19:45;HC Davos;Genève-Servette HC; 6:2; 2:1|3:0|1:1;;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;4554;MYSPORTS;20261105000289;NL;CH;Regular Season
+Do;04.12.2025;19:45;HC Ambri-Piotta;Genève-Servette HC; 5:2; 3:0|0:0|2:2;;Ende;False;Gottardo Arena, 6775 Ambri TI;5924;MYSPORTS;20261105000205;NL;CH;Regular Season
+Fr;05.12.2025;19:45;HC Ajoie;Fribourg-Gottéron; 1:5; 0:0|1:3|0:2;;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;5195;MYSPORTS,LEMANBLEU,LATELE,TELEB;20261105000204;NL;CH;Regular Season
+Fr;05.12.2025;19:45;HC Davos;ZSC Lions; 2:3; 1:1|0:1|1:0|0:1;SO;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;6547;MYSPORTS,TV24,3PLUS;20261105000206;NL;CH;Regular Season
+Fr;05.12.2025;19:45;HC Lugano;EHC Kloten; 4:1; 2:0|1:1|1:0;;Ende;False;Cornèr Arena, 6948 Porza Ti;5125;MYSPORTS;20261105000207;NL;CH;Regular Season
+Fr;05.12.2025;19:45;SC Rapperswil-Jona Lakers;EHC Biel-Bienne; 2:3; 1:0|1:2|0:0|0:1;SO;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;4722;MYSPORTS;20261105000209;NL;CH;Regular Season
+Fr;05.12.2025;19:45;SCL Tigers;EV Zug; 3:1; 1:0|0:1|2:0;;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;5575;MYSPORTS;20261105000210;NL;CH;Regular Season
+Sa;06.12.2025;19:45;SC Bern;SCL Tigers; 5:1; 2:0|1:0|2:1;;Ende;False;PostFinance Arena, 3014 Bern BE;16503;MYSPORTS;20261105000211;NL;CH;Regular Season
+Sa;06.12.2025;19:45;EHC Biel-Bienne;Lausanne HC; 1:2; 1:0|0:0|0:2;;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;6240;MYSPORTS;20261105000212;NL;CH;Regular Season
+Sa;06.12.2025;19:45;Genève-Servette HC;HC Ajoie; 6:1; 1:0|3:1|2:0;;Ende;False;Les Vernets, 1227 Les Acacias GE;6337;MYSPORTS;20261105000214;NL;CH;Regular Season
+So;07.12.2025;14:00;Fribourg-Gottéron;HC Davos; 4:0; 1:0|2:0|1:0;;Ende;False;BCF Arena, 1700 Fribourg FR;9372;MYSPORTS;20261105000213;NL;CH;Regular Season
+So;07.12.2025;14:00;EHC Kloten;HC Ambri-Piotta; 2:1; 1:0|0:0|1:1;;Ende;False;SWISS Arena, 8302 Kloten ZH;6632;MYSPORTS;20261105000215;NL;CH;Regular Season
+So;07.12.2025;15:45;ZSC Lions;SC Rapperswil-Jona Lakers; 3:1; 1:0|1:0|1:1;;Ende;False;Swiss Life Arena, 8048 Zürich ZH;12000;MYSPORTS;20261105000216;NL;CH;Regular Season
+So;07.12.2025;15:45;HC Lugano;SC Bern; 3:1; 1:0|1:1|1:0;;Ende;False;Cornèr Arena, 6948 Porza Ti;5703;MYSPORTS;20261105000228;NL;CH;Regular Season
+Mi;17.12.2025;19:45;EV Zug;EHC Kloten; 5:4; 1:1|1:2|3:1;;Ende;False;OYM hall, 6303 Zug;7049;MYSPORTS;20261105000147;NL;CH;Regular Season
+Mi;17.12.2025;19:45;ZSC Lions;HC Lugano; 5:3; 2:1|0:1|3:1;;Ende;False;Swiss Life Arena, 8048 Zürich ZH;11195;MYSPORTS;20261105000223;NL;CH;Regular Season
+Mi;17.12.2025;19:45;Fribourg-Gottéron;HC Ajoie; 4:2; 2:0|2:1|0:1;;Ende;False;BCF Arena, 1700 Fribourg FR;9372;MYSPORTS;20261105000339;NL;CH;Regular Season
+Fr;19.12.2025;19:45;HC Ajoie;Lausanne HC; 3:4; 1:1|1:1|1:1|0:1;OT;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;4989;MYSPORTS;20261105000218;NL;CH;Regular Season
+Fr;19.12.2025;19:45;HC Ambri-Piotta;Fribourg-Gottéron; 5:6; 3:2|1:2|1:1|0:1;OT;Ende;False;Gottardo Arena, 6775 Ambri TI;6552;MYSPORTS;20261105000219;NL;CH;Regular Season
+Fr;19.12.2025;19:45;SC Bern;HC Davos; 2:3; 0:1|0:1|2:0|0:1;OT;Ende;False;PostFinance Arena, 3014 Bern BE;15689;MYSPORTS,TV24,3PLUS;20261105000220;NL;CH;Regular Season
+Fr;19.12.2025;19:45;Genève-Servette HC;SCL Tigers; 1:4; 0:2|0:0|1:2;;Ende;False;Les Vernets, 1227 Les Acacias GE;6043;MYSPORTS;20261105000221;NL;CH;Regular Season
+Fr;19.12.2025;19:45;EHC Kloten;SC Rapperswil-Jona Lakers; 5:2; 3:0|0:1|2:1;;Ende;False;SWISS Arena, 8302 Kloten ZH;5035;MYSPORTS;20261105000222;NL;CH;Regular Season
+Fr;19.12.2025;19:45;EV Zug;EHC Biel-Bienne; 4:0; 0:0|1:0|3:0;;Ende;False;OYM hall, 6303 Zug;7246;MYSPORTS;20261105000224;NL;CH;Regular Season
+Sa;20.12.2025;19:45;HC Davos;HC Lugano; 5:4; 2:1|3:1|0:2;;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;6547;MYSPORTS;20261105000185;NL;CH;Regular Season
+Sa;20.12.2025;19:45;Fribourg-Gottéron;ZSC Lions; 4:2; 1:2|0:0|3:0;;Ende;False;BCF Arena, 1700 Fribourg FR;9372;MYSPORTS,TV24,3PLUS;20261105000227;NL;CH;Regular Season
+Sa;20.12.2025;19:45;Lausanne HC;HC Ambri-Piotta; 5:1; 1:0|2:0|2:1;;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;9600;MYSPORTS;20261105000229;NL;CH;Regular Season
+Sa;20.12.2025;19:45;SC Rapperswil-Jona Lakers;EV Zug; 4:2; 0:2|1:0|3:0;;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;5940;MYSPORTS;20261105000230;NL;CH;Regular Season
+Sa;20.12.2025;19:45;SCL Tigers;EHC Kloten; 4:3; 1:1|2:0|0:2|1:0;OT;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;6000;MYSPORTS;20261105000231;NL;CH;Regular Season
+Sa;20.12.2025;20:00;EHC Biel-Bienne;Genève-Servette HC; 3:2; 2:1|0:0|1:1;;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;6365;MYSPORTS,LEMANBLEU,LATELE,TELEB;20261105000225;NL;CH;Regular Season
+Mo;22.12.2025;19:45;Lausanne HC;SC Bern; 2:3; 0:0|1:0|1:2|0:1;OT;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;9600;MYSPORTS;20261105000208;NL;CH;Regular Season
+Mo;22.12.2025;19:45;HC Lugano;HC Ajoie; 6:1; 1:1|4:0|1:0;;Ende;False;Cornèr Arena, 6948 Porza Ti;6292;MYSPORTS;20261105000270;NL;CH;Regular Season
+Di;23.12.2025;19:45;HC Ambri-Piotta;HC Ajoie; 2:5; 1:2|1:1|0:2;;Ende;False;Gottardo Arena, 6775 Ambri TI;6775;MYSPORTS;20261105000232;NL;CH;Regular Season
+Di;23.12.2025;19:45;SC Bern;SC Rapperswil-Jona Lakers; 3:2; 0:2|1:0|1:0|1:0;SO;Ende;False;PostFinance Arena, 3014 Bern BE;15876;MYSPORTS,TV24,3PLUS;20261105000233;NL;CH;Regular Season
+Di;23.12.2025;19:45;Genève-Servette HC;Lausanne HC; 7:3; 2:1|4:2|1:0;;Ende;False;Les Vernets, 1227 Les Acacias GE;7135;MYSPORTS;20261105000234;NL;CH;Regular Season
+Di;23.12.2025;19:45;EHC Kloten;Fribourg-Gottéron; 4:3; 3:0|0:1|1:2;;Ende;False;SWISS Arena, 8302 Kloten ZH;6158;MYSPORTS;20261105000235;NL;CH;Regular Season
+Di;23.12.2025;19:45;SCL Tigers;HC Lugano; 2:4; 1:1|1:2|0:1;;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;6000;MYSPORTS,TELETICINO;20261105000236;NL;CH;Regular Season
+Di;23.12.2025;19:45;ZSC Lions;EHC Biel-Bienne; 4:2; 1:0|0:1|3:1;;Ende;False;Swiss Life Arena, 8048 Zürich ZH;12000;MYSPORTS;20261105000237;NL;CH;Regular Season
+Di;23.12.2025;19:45;EV Zug;HC Davos; 3:2; 1:1|1:0|0:1|1:0;SO;Ende;False;OYM hall, 6303 Zug;7450;MYSPORTS;20261105000238;NL;CH;Regular Season
+Fr;02.01.2026;14:00;HC Ajoie;SC Bern; 3:4; 0:0|2:1|1:3;;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;5276;MYSPORTS;20261105000239;NL;CH;Regular Season
+Fr;02.01.2026;14:02;Genève-Servette HC;ZSC Lions; 5:3; 2:0|1:2|2:1;;Ende;False;Les Vernets, 1227 Les Acacias GE;6696;MYSPORTS;20261105000243;NL;CH;Regular Season
+Fr;02.01.2026;15:45;Lausanne HC;EV Zug; 7:0; 0:0|6:0|1:0;;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;9600;MYSPORTS;20261105000245;NL;CH;Regular Season
+Fr;02.01.2026;19:45;HC Ambri-Piotta;SCL Tigers; 0:3; 0:1|0:0|0:2;;Ende;False;Gottardo Arena, 6775 Ambri TI;6447;MYSPORTS;20261105000240;NL;CH;Regular Season
+Fr;02.01.2026;19:45;EHC Biel-Bienne;HC Lugano; 3:1; 1:1|1:0|1:0;;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;6556;MYSPORTS;20261105000241;NL;CH;Regular Season
+Fr;02.01.2026;19:45;EHC Kloten;HC Davos; 4:1; 0:0|2:1|2:0;;Ende;False;SWISS Arena, 8302 Kloten ZH;7161;MYSPORTS,TV24,3PLUS;20261105000244;NL;CH;Regular Season
+Sa;03.01.2026;19:45;SC Bern;Genève-Servette HC; 0:3; 0:0|0:2|0:1;;Ende;False;PostFinance Arena, 3014 Bern BE;17001;MYSPORTS;20261105000246;NL;CH;Regular Season
+Sa;03.01.2026;19:45;HC Davos;HC Ambri-Piotta; 7:3; 1:0|2:1|4:2;;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;6547;MYSPORTS,TELETICINO,TV24,3PLUS;20261105000247;NL;CH;Regular Season
+Sa;03.01.2026;19:45;HC Lugano;Fribourg-Gottéron; 3:2; 2:1|1:1|0:0;;Ende;False;Cornèr Arena, 6948 Porza Ti;6422;MYSPORTS;20261105000248;NL;CH;Regular Season
+Sa;03.01.2026;19:45;SC Rapperswil-Jona Lakers;HC Ajoie; 2:1; 1:1|0:0|0:0|1:0;OT;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;5026;MYSPORTS;20261105000249;NL;CH;Regular Season
+Sa;03.01.2026;19:45;SCL Tigers;EHC Biel-Bienne; 4:0; 2:0|1:0|1:0;;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;6000;MYSPORTS;20261105000250;NL;CH;Regular Season
+Sa;03.01.2026;19:45;ZSC Lions;Lausanne HC; 3:2; 1:1|1:1|1:0;;Ende;False;Swiss Life Arena, 8048 Zürich ZH;12000;MYSPORTS;20261105000251;NL;CH;Regular Season
+Sa;03.01.2026;19:45;EV Zug;EHC Kloten; 1:2; 0:0|1:1|0:0|0:1;OT;Ende;False;OYM hall, 6303 Zug;7450;MYSPORTS;20261105000252;NL;CH;Regular Season
+Di;06.01.2026;19:45;HC Ajoie;ZSC Lions; 3:5; 0:4|2:0|1:1;;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;3551;MYSPORTS;20261105000253;NL;CH;Regular Season
+Di;06.01.2026;19:45;HC Ambri-Piotta;EV Zug; 4:0; 0:0|1:0|3:0;;Ende;False;Gottardo Arena, 6775 Ambri TI;6185;MYSPORTS;20261105000254;NL;CH;Regular Season
+Di;06.01.2026;19:45;EHC Biel-Bienne;HC Davos; 4:3; 0:1|1:0|2:2|1:0;SO;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;5844;MYSPORTS;20261105000255;NL;CH;Regular Season
+Di;06.01.2026;19:45;Fribourg-Gottéron;SCL Tigers; 4:3; 0:1|1:0|2:2|1:0;SO;Ende;False;BCF Arena, 1700 Fribourg FR;9372;MYSPORTS;20261105000256;NL;CH;Regular Season
+Di;06.01.2026;19:45;Genève-Servette HC;SC Rapperswil-Jona Lakers; 3:1; 0:0|0:0|3:1;;Ende;False;Les Vernets, 1227 Les Acacias GE;5513;MYSPORTS;20261105000257;NL;CH;Regular Season
+Di;06.01.2026;19:45;EHC Kloten;SC Bern; 2:3; 0:1|1:2|1:0;;Ende;False;SWISS Arena, 8302 Kloten ZH;4218;MYSPORTS,TV24,3PLUS;20261105000258;NL;CH;Regular Season
+Mi;07.01.2026;19:45;Lausanne HC;HC Lugano; 2:5; 0:0|1:2|1:3;;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;9246;MYSPORTS;20261105000259;NL;CH;Regular Season
+Do;08.01.2026;19:45;Fribourg-Gottéron;EV Zug; 3:2; 0:1|1:1|1:0|1:0;SO;Ende;False;BCF Arena, 1700 Fribourg FR;9372;MYSPORTS;20261105000263;NL;CH;Regular Season
+Do;08.01.2026;19:45;Genève-Servette HC;HC Lugano; 2:1; 0:0|0:1|1:0|1:0;OT;Ende;False;Les Vernets, 1227 Les Acacias GE;6023;MYSPORTS;20261105000264;NL;CH;Regular Season
+Do;08.01.2026;20:00;SC Rapperswil-Jona Lakers;SCL Tigers; 2:1; 0:1|0:0|2:0;;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;4291;MYSPORTS,TV24,3PLUS;20261105000265;NL;CH;Regular Season
+Fr;09.01.2026;19:45;HC Ajoie;EHC Biel-Bienne; 1:2; 0:0|1:2|0:0;;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;5021;MYSPORTS;20261105000260;NL;CH;Regular Season
+Fr;09.01.2026;19:45;SC Bern;HC Ambri-Piotta; 0:1; 0:0|0:0|0:0|0:1;SO;Ende;False;PostFinance Arena, 3014 Bern BE;15087;MYSPORTS;20261105000261;NL;CH;Regular Season
+Fr;09.01.2026;19:45;HC Davos;Lausanne HC; 5:1; 1:0|1:0|3:1;;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;6547;MYSPORTS;20261105000262;NL;CH;Regular Season
+Sa;10.01.2026;19:45;HC Ambri-Piotta;SC Rapperswil-Jona Lakers; 4:3; 1:1|1:2|1:0|1:0;OT;Ende;False;Gottardo Arena, 6775 Ambri TI;6553;MYSPORTS;20261105000267;NL;CH;Regular Season
+Sa;10.01.2026;19:45;EHC Biel-Bienne;SC Bern; 1:2; 0:1|0:1|1:0;;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;6556;MYSPORTS;20261105000268;NL;CH;Regular Season
+Sa;10.01.2026;19:45;EHC Kloten;Genève-Servette HC; 1:3; 0:1|1:1|0:1;;Ende;False;SWISS Arena, 8302 Kloten ZH;4441;MYSPORTS;20261105000269;NL;CH;Regular Season
+Sa;10.01.2026;19:45;Lausanne HC;Fribourg-Gottéron; 0:4; 0:1|0:0|0:3;;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;9600;MYSPORTS,LEMANBLEU,LATELE,TELEB;20261105000271;NL;CH;Regular Season
+Sa;10.01.2026;19:45;SCL Tigers;HC Davos; 3:1; 1:0|1:1|1:0;;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;6000;MYSPORTS;20261105000272;NL;CH;Regular Season
+Sa;10.01.2026;19:45;EV Zug;ZSC Lions; 2:3; 1:1|0:0|1:1|0:1;OT;Ende;False;OYM hall, 6303 Zug;7450;MYSPORTS,TV24,3PLUS;20261105000273;NL;CH;Regular Season
+So;11.01.2026;19:45;ZSC Lions;EHC Kloten; 1:0; 0:0|0:0|1:0;;Ende;False;Swiss Life Arena, 8048 Zürich ZH;12000;MYSPORTS;20261105000266;NL;CH;Regular Season
+Mi;14.01.2026;19:45;HC Ajoie;SCL Tigers; 2:1; 0:1|1:0|0:0|1:0;SO;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;3496;MYSPORTS;20261105000183;NL;CH;Regular Season
+Mi;14.01.2026;19:45;EV Zug;HC Lugano; 2:3; 0:1|1:2|1:0;;Ende;False;OYM hall, 6303 Zug;6930;MYSPORTS;20261105000217;NL;CH;Regular Season
+Mi;14.01.2026;19:45;Lausanne HC;Genève-Servette HC; 0:3; 0:0|0:2|0:1;;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;9600;MYSPORTS;20261105000307;NL;CH;Regular Season
+Do;15.01.2026;20:00;EHC Biel-Bienne;HC Ambri-Piotta; 3:2; 1:0|1:1|0:1|1:0;OT;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;5817;MYSPORTS,TV24,3PLUS;20261105000275;NL;CH;Regular Season
+Fr;16.01.2026;19:45;SC Bern;HC Lugano; 1:4; 0:2|0:1|1:1;;Ende;False;PostFinance Arena, 3014 Bern BE;14854;MYSPORTS;20261105000274;NL;CH;Regular Season
+Fr;16.01.2026;19:45;EHC Kloten;Lausanne HC; 2:3; 0:0|1:1|1:1|0:1;OT;Ende;False;SWISS Arena, 8302 Kloten ZH;4467;MYSPORTS;20261105000277;NL;CH;Regular Season
+Fr;16.01.2026;19:45;SC Rapperswil-Jona Lakers;ZSC Lions; 1:3; 0:1|0:0|1:2;;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;6100;MYSPORTS,TV24,3PLUS;20261105000278;NL;CH;Regular Season
+Fr;16.01.2026;19:45;SCL Tigers;Genève-Servette HC; 3:0; 0:0|1:0|2:0;;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;5820;MYSPORTS;20261105000279;NL;CH;Regular Season
+Fr;16.01.2026;19:45;EV Zug;HC Ajoie; 2:4; 1:0|1:3|0:1;;Ende;False;OYM hall, 6303 Zug;7251;MYSPORTS;20261105000280;NL;CH;Regular Season
+Sa;17.01.2026;19:45;HC Ajoie;HC Davos; 2:5; 0:0|1:2|1:3;;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;4391;MYSPORTS;20261105000281;NL;CH;Regular Season
+Sa;17.01.2026;19:45;HC Ambri-Piotta;EHC Kloten; 2:5; 2:2|0:2|0:1;;Ende;False;Gottardo Arena, 6775 Ambri TI;6495;MYSPORTS;20261105000282;NL;CH;Regular Season
+Sa;17.01.2026;19:45;Fribourg-Gottéron;EHC Biel-Bienne; 6:1; 2:0|0:1|4:0;;Ende;False;BCF Arena, 1700 Fribourg FR;9372;MYSPORTS;20261105000283;NL;CH;Regular Season
+Sa;17.01.2026;19:45;Genève-Servette HC;EV Zug; 4:1; 1:0|3:1|0:0;;Ende;False;Les Vernets, 1227 Les Acacias GE;7135;MYSPORTS;20261105000284;NL;CH;Regular Season
+Sa;17.01.2026;19:45;ZSC Lions;SC Bern; 3:4; 0:1|1:1|2:1|0:1;OT;Ende;False;Swiss Life Arena, 8048 Zürich ZH;12000;MYSPORTS;20261105000287;NL;CH;Regular Season
+So;18.01.2026;15:45;HC Lugano;SCL Tigers; 4:3; 1:0|1:1|1:2|1:0;SO;Ende;False;Cornèr Arena, 6948 Porza Ti;6233;MYSPORTS;20261105000285;NL;CH;Regular Season
+So;18.01.2026;15:45;Lausanne HC;SC Rapperswil-Jona Lakers; 3:4; 0:0|2:2|1:1|0:1;OT;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;9600;MYSPORTS;20261105000286;NL;CH;Regular Season
+Fr;23.01.2026;19:45;HC Ambri-Piotta;ZSC Lions; 2:4; 1:1|1:0|0:3;;Ende;False;Gottardo Arena, 6775 Ambri TI;6500;MYSPORTS,TV24,3PLUS;20261105000288;NL;CH;Regular Season
+Fr;23.01.2026;19:45;Fribourg-Gottéron;HC Lugano; 3:2; 1:0|0:1|1:1|1:0;SO;Ende;False;BCF Arena, 1700 Fribourg FR;9372;MYSPORTS;20261105000290;NL;CH;Regular Season
+Fr;23.01.2026;19:45;EHC Kloten;EV Zug; 1:2; 0:0|0:0|1:2;;Ende;False;SWISS Arena, 8302 Kloten ZH;5031;MYSPORTS;20261105000291;NL;CH;Regular Season
+Fr;23.01.2026;19:45;Lausanne HC;EHC Biel-Bienne; 2:1; 0:1|1:0|0:0|1:0;OT;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;9600;MYSPORTS;20261105000292;NL;CH;Regular Season
+Fr;23.01.2026;19:45;SC Rapperswil-Jona Lakers;SC Bern; 0:2; 0:0|0:1|0:1;;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;5560;MYSPORTS;20261105000293;NL;CH;Regular Season
+Fr;23.01.2026;19:45;SCL Tigers;HC Ajoie; 2:3; 0:0|2:1|0:1|0:1;OT;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;5905;MYSPORTS;20261105000294;NL;CH;Regular Season
+Sa;24.01.2026;19:45;HC Ajoie;EHC Kloten; 4:2; 3:1|0:1|1:0;;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;4422;MYSPORTS;20261105000295;NL;CH;Regular Season
+Sa;24.01.2026;19:45;SC Bern;Lausanne HC; 3:1; 0:0|2:1|1:0;;Ende;False;PostFinance Arena, 3014 Bern BE;16501;MYSPORTS;20261105000296;NL;CH;Regular Season
+Sa;24.01.2026;19:45;EHC Biel-Bienne;SC Rapperswil-Jona Lakers; 5:4; 2:1|1:2|2:1;;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;6033;MYSPORTS;20261105000297;NL;CH;Regular Season
+Sa;24.01.2026;19:45;HC Lugano;HC Davos; 1:4; 0:0|0:2|1:2;;Ende;False;Cornèr Arena, 6948 Porza Ti;6614;MYSPORTS;20261105000299;NL;CH;Regular Season
+Sa;24.01.2026;19:45;ZSC Lions;Fribourg-Gottéron; 3:4; 0:2|2:0|1:1|0:1;SO;Ende;False;Swiss Life Arena, 8048 Zürich ZH;12000;MYSPORTS;20261105000300;NL;CH;Regular Season
+Sa;24.01.2026;19:45;EV Zug;SCL Tigers; 3:1; 1:0|0:1|2:0;;Ende;False;OYM hall, 6303 Zug;7429;MYSPORTS;20261105000301;NL;CH;Regular Season
+Mo;26.01.2026;19:45;Genève-Servette HC;HC Ambri-Piotta; 3:4; 0:0|2:1|1:2|0:1;OT;Ende;False;Les Vernets, 1227 Les Acacias GE;5938;MYSPORTS,TELETICINO;20261105000298;NL;CH;Regular Season
+Di;27.01.2026;19:45;EHC Biel-Bienne;HC Ajoie; 6:3; 2:0|1:1|3:2;;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;6131;MYSPORTS;20261105000302;NL;CH;Regular Season
+Di;27.01.2026;19:45;HC Davos;EV Zug; 4:1; 2:0|0:0|2:1;;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;6076;MYSPORTS;20261105000303;NL;CH;Regular Season
+Di;27.01.2026;19:45;Fribourg-Gottéron;HC Ambri-Piotta; 4:3; 1:0|1:3|1:0|1:0;OT;Ende;False;BCF Arena, 1700 Fribourg FR;9372;MYSPORTS;20261105000304;NL;CH;Regular Season
+Di;27.01.2026;19:45;EHC Kloten;ZSC Lions; 2:4; 0:1|0:1|2:2;;Ende;False;SWISS Arena, 8302 Kloten ZH;6296;MYSPORTS;20261105000305;NL;CH;Regular Season
+Di;27.01.2026;19:45;HC Lugano;SC Rapperswil-Jona Lakers; 7:3; 3:0|0:3|4:0;;Ende;False;Cornèr Arena, 6948 Porza Ti;5072;MYSPORTS;20261105000306;NL;CH;Regular Season
+Di;27.01.2026;19:45;SCL Tigers;SC Bern; 3:4; 1:0|1:3|1:0|0:1;OT;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;6000;MYSPORTS,TV24,3PLUS;20261105000308;NL;CH;Regular Season
+Do;29.01.2026;19:45;HC Ambri-Piotta;HC Lugano; 3:2; 1:1|1:0|1:1;;Ende;False;Gottardo Arena, 6775 Ambri TI;6775;MYSPORTS,TELETICINO;20261105000309;NL;CH;Regular Season
+Do;29.01.2026;19:45;Genève-Servette HC;Fribourg-Gottéron; 3:5; 1:4|0:0|2:1;;Ende;False;Les Vernets, 1227 Les Acacias GE;7135;MYSPORTS;20261105000311;NL;CH;Regular Season
+Do;29.01.2026;19:45;SC Rapperswil-Jona Lakers;HC Davos; 3:4; 1:0|0:2|2:2;;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;6025;MYSPORTS;20261105000314;NL;CH;Regular Season
+Fr;30.01.2026;19:45;EHC Biel-Bienne;ZSC Lions; 1:5; 1:1|0:2|0:2;;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;6382;MYSPORTS;20261105000317;NL;CH;Regular Season
+Fr;30.01.2026;19:45;HC Davos;SC Bern; 2:1; 0:0|2:1|0:0;;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;6547;MYSPORTS,TV24,3PLUS;20261105000318;NL;CH;Regular Season
+Fr;30.01.2026;19:45;Fribourg-Gottéron;EHC Kloten; 3:2; 1:0|0:1|1:1|1:0;OT;Ende;False;BCF Arena, 1700 Fribourg FR;9372;MYSPORTS;20261105000319;NL;CH;Regular Season
+Fr;30.01.2026;19:45;EV Zug;Lausanne HC; 1:4; 0:1|0:1|1:2;;Ende;False;OYM hall, 6303 Zug;7371;MYSPORTS;20261105000322;NL;CH;Regular Season
+Fr;30.01.2026;19:50;HC Ajoie;SC Rapperswil-Jona Lakers; 2:5; 0:2|0:1|2:2;;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;4153;MYSPORTS;20261105000316;NL;CH;Regular Season
+Sa;31.01.2026;19:45;ZSC Lions;EV Zug; 2:4; 0:0|0:1|2:3;;Ende;False;Swiss Life Arena, 8048 Zürich ZH;12000;MYSPORTS;20261105000315;NL;CH;Regular Season
+Sa;31.01.2026;19:45;HC Lugano;Genève-Servette HC; 5:1; 1:0|0:1|4:0;;Ende;False;Cornèr Arena, 6948 Porza Ti;5602;MYSPORTS,LEMANBLEU,LATELE,TELEB;20261105000320;NL;CH;Regular Season
+Sa;31.01.2026;19:45;SCL Tigers;HC Ambri-Piotta; 6:3; 0:0|2:1|4:2;;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;6000;MYSPORTS;20261105000321;NL;CH;Regular Season
+So;01.02.2026;14:00;SC Bern;HC Ajoie; 5:0; 1:0|2:0|2:0;;Ende;False;PostFinance Arena, 3014 Bern BE;17031;MYSPORTS;20261105000310;NL;CH;Regular Season
+So;01.02.2026;14:00;EHC Kloten;EHC Biel-Bienne; 3:2; 0:0|0:1|2:1|1:0;OT;Ende;False;SWISS Arena, 8302 Kloten ZH;6189;MYSPORTS;20261105000312;NL;CH;Regular Season
+So;01.02.2026;15:45;HC Davos;Fribourg-Gottéron; 5:2; 2:1|1:0|2:1;;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;6547;MYSPORTS;20261105000276;NL;CH;Regular Season
+Di;24.02.2026;19:45;HC Ambri-Piotta;Lausanne HC; 3:2; 0:2|2:0|0:0|1:0;OT;Ende;False;Gottardo Arena, 6775 Ambri TI;6093;MYSPORTS;20261105000323;NL;CH;Regular Season
+Di;24.02.2026;19:45;SC Bern;EHC Kloten; 1:2; 1:0|0:0|0:1|0:1;OT;Ende;False;PostFinance Arena, 3014 Bern BE;14789;MYSPORTS;20261105000324;NL;CH;Regular Season
+Di;24.02.2026;19:45;HC Davos;SCL Tigers; 4:3; 1:0|1:3|2:0;;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;6130;MYSPORTS;20261105000325;NL;CH;Regular Season
+Di;24.02.2026;19:45;HC Lugano;EHC Biel-Bienne; 3:4; 2:1|0:2|1:0|0:1;SO;Ende;False;Cornèr Arena, 6948 Porza Ti;4922;MYSPORTS;20261105000326;NL;CH;Regular Season
+Di;24.02.2026;19:45;SC Rapperswil-Jona Lakers;Genève-Servette HC; 4:1; 1:1|1:0|2:0;;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;4086;MYSPORTS;20261105000327;NL;CH;Regular Season
+Di;24.02.2026;19:45;ZSC Lions;HC Ajoie; 2:1; 1:0|1:1|0:0;;Ende;False;Swiss Life Arena, 8048 Zürich ZH;11263;MYSPORTS;20261105000328;NL;CH;Regular Season
+Di;24.02.2026;19:45;EV Zug;Fribourg-Gottéron; 1:3; 0:1|1:0|0:2;;Ende;False;OYM hall, 6303 Zug;7194;MYSPORTS,TV24,3PLUS;20261105000329;NL;CH;Regular Season
+Fr;27.02.2026;19:45;HC Ajoie;HC Lugano; 0:1; 0:0|0:1|0:0;;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;4235;MYSPORTS;20261105000330;NL;CH;Regular Season
+Fr;27.02.2026;19:45;HC Ambri-Piotta;HC Davos; 2:5; 1:1|0:2|1:2;;Ende;False;Gottardo Arena, 6775 Ambri TI;6765;MYSPORTS;20261105000331;NL;CH;Regular Season
+Fr;27.02.2026;19:45;EHC Biel-Bienne;EV Zug; 2:3; 1:0|0:1|1:2;;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;6497;MYSPORTS;20261105000332;NL;CH;Regular Season
+Fr;27.02.2026;19:45;Genève-Servette HC;SC Bern; 4:3; 2:1|1:2|0:0|1:0;OT;Ende;False;Les Vernets, 1227 Les Acacias GE;7135;MYSPORTS,LEMANBLEU,LATELE,TELEB;20261105000333;NL;CH;Regular Season
+Fr;27.02.2026;19:45;EHC Kloten;SCL Tigers; 3:1; 1:0|0:1|2:0;;Ende;False;SWISS Arena, 8302 Kloten ZH;5168;MYSPORTS,TV24,3PLUS;20261105000334;NL;CH;Regular Season
+Fr;27.02.2026;19:45;Lausanne HC;ZSC Lions; 3:4; 0:1|0:0|3:2|0:1;SO;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;9600;MYSPORTS;20261105000335;NL;CH;Regular Season
+Fr;27.02.2026;19:45;SC Rapperswil-Jona Lakers;Fribourg-Gottéron; 2:3; 1:0|1:1|0:2;;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;5515;MYSPORTS;20261105000336;NL;CH;Regular Season
+Sa;28.02.2026;19:45;SC Bern;EHC Biel-Bienne; 2:3; 2:2|0:0|0:1;;Ende;False;PostFinance Arena, 3014 Bern BE;16806;MYSPORTS,TV24,3PLUS;20261105000337;NL;CH;Regular Season
+Sa;28.02.2026;19:45;HC Davos;EHC Kloten; 0:2; 0:1|0:1|0:0;;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;6547;MYSPORTS;20261105000338;NL;CH;Regular Season
+Sa;28.02.2026;19:45;HC Lugano;Lausanne HC; 1:4; 0:2|0:1|1:1;;Ende;False;Cornèr Arena, 6948 Porza Ti;5725;MYSPORTS;20261105000340;NL;CH;Regular Season
+Sa;28.02.2026;19:45;SCL Tigers;SC Rapperswil-Jona Lakers; 3:4; 0:1|1:2|2:1;;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;6000;MYSPORTS;20261105000341;NL;CH;Regular Season
+Sa;28.02.2026;19:45;ZSC Lions;Genève-Servette HC; 2:3; 2:1|0:1|0:1;;Ende;False;Swiss Life Arena, 8048 Zürich ZH;12000;MYSPORTS;20261105000342;NL;CH;Regular Season
+Sa;28.02.2026;19:45;EV Zug;HC Ambri-Piotta; 4:1; 0:0|2:1|2:0;;Ende;False;OYM hall, 6303 Zug;7450;MYSPORTS;20261105000343;NL;CH;Regular Season
+Do;05.03.2026;19:45;HC Ajoie;HC Ambri-Piotta; 2:3; 0:1|1:1|1:0|0:1;SO;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;3913;MYSPORTS;20261105000344;NL;CH;Regular Season
+Do;05.03.2026;19:45;SC Bern;EV Zug; 2:1; 0:1|1:0|0:0|1:0;SO;Ende;False;PostFinance Arena, 3014 Bern BE;15553;MYSPORTS,TV24,3PLUS;20261105000345;NL;CH;Regular Season
+Do;05.03.2026;19:45;Genève-Servette HC;EHC Biel-Bienne; 5:3; 2:1|2:1|1:1;;Ende;False;Les Vernets, 1227 Les Acacias GE;7135;MYSPORTS;20261105000346;NL;CH;Regular Season
+Do;05.03.2026;19:45;HC Lugano;ZSC Lions; 1:4; 0:1|1:2|0:1;;Ende;False;Cornèr Arena, 6948 Porza Ti;5640;MYSPORTS;20261105000347;NL;CH;Regular Season
+Do;05.03.2026;19:45;Lausanne HC;HC Davos; 2:6; 1:1|1:2|0:3;;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;9600;MYSPORTS;20261105000348;NL;CH;Regular Season
+Do;05.03.2026;19:45;SC Rapperswil-Jona Lakers;EHC Kloten; 6:4; 0:1|3:1|3:2;;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;4995;MYSPORTS;20261105000349;NL;CH;Regular Season
+Do;05.03.2026;19:45;SCL Tigers;Fribourg-Gottéron; 3:4; 0:2|2:0|1:2;;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;6000;MYSPORTS;20261105000350;NL;CH;Regular Season
+Sa;07.03.2026;19:45;HC Ajoie;Genève-Servette HC; 2:6; 1:2|1:4|0:0;;Ende;False;Raiffeisen Arena, 2900 Porrentruy JU;4275;MYSPORTS,LEMANBLEU,LATELE,TELEB;20261105000351;NL;CH;Regular Season
+Sa;07.03.2026;19:45;HC Ambri-Piotta;SC Bern; 4:1; 1:0|1:1|2:0;;Ende;False;Gottardo Arena, 6775 Ambri TI;6775;MYSPORTS;20261105000352;NL;CH;Regular Season
+Sa;07.03.2026;19:45;EHC Biel-Bienne;SCL Tigers; 5:1; 0:1|2:0|3:0;;Ende;False;Tissot Arena, 2504 Biel/Bienne BE;6556;MYSPORTS;20261105000353;NL;CH;Regular Season
+Sa;07.03.2026;19:45;Fribourg-Gottéron;Lausanne HC; 3:4; 1:2|1:2|1:0;;Ende;False;BCF Arena, 1700 Fribourg FR;9372;MYSPORTS;20261105000354;NL;CH;Regular Season
+Sa;07.03.2026;19:45;EHC Kloten;HC Lugano; 2:1; 0:1|0:0|1:0|1:0;OT;Ende;False;SWISS Arena, 8302 Kloten ZH;6404;MYSPORTS;20261105000355;NL;CH;Regular Season
+Sa;07.03.2026;19:45;ZSC Lions;HC Davos; 1:2; 0:2|1:0|0:0;;Ende;False;Swiss Life Arena, 8048 Zürich ZH;12000;MYSPORTS;20261105000356;NL;CH;Regular Season
+Sa;07.03.2026;19:45;EV Zug;SC Rapperswil-Jona Lakers; 2:3; 0:0|0:2|2:0|0:1;OT;Ende;False;OYM hall, 6303 Zug;7450;MYSPORTS;20261105000357;NL;CH;Regular Season
+Mo;09.03.2026;19:45;SC Bern;Fribourg-Gottéron; 3:4; 0:2|2:0|1:2;;Ende;False;PostFinance Arena, 3014 Bern BE;16471;MYSPORTS,LEMANBLEU,LATELE,TELEB;20261105000358;NL;CH;Regular Season
+Mo;09.03.2026;19:45;HC Davos;EHC Biel-Bienne; 5:2; 2:0|2:0|1:2;;Ende;False;zondacrypto-Arena, 7270 Davos-Platz GR;4656;MYSPORTS;20261105000359;NL;CH;Regular Season
+Mo;09.03.2026;19:45;Genève-Servette HC;EHC Kloten; 7:0; 2:0|3:0|2:0;;Ende;False;Les Vernets, 1227 Les Acacias GE;6342;MYSPORTS;20261105000360;NL;CH;Regular Season
+Mo;09.03.2026;19:45;HC Lugano;EV Zug; 4:1; 2:0|0:0|2:1;;Ende;False;Cornèr Arena, 6948 Porza Ti;5941;MYSPORTS,TELETICINO;20261105000361;NL;CH;Regular Season
+Mo;09.03.2026;19:45;Lausanne HC;HC Ajoie; 2:3; 0:0|2:2|0:0|0:1;SO;Ende;False;Vaudoise Aréna, 1008 Lausanne VD;9600;MYSPORTS;20261105000362;NL;CH;Regular Season
+Mo;09.03.2026;19:45;SC Rapperswil-Jona Lakers;HC Ambri-Piotta; 6:2; 2:1|0:0|4:1;;Ende;False;St.Galler Kantonalbank Arena, 8640 Rapperswil SG;4562;MYSPORTS;20261105000363;NL;CH;Regular Season
+Mo;09.03.2026;19:45;SCL Tigers;ZSC Lions; 0:2; 0:0|0:2|0:0;;Ende;False;emmental versicherung arena , 3550 Langnau i. E. BE;5416;MYSPORTS,TV24,3PLUS;20261105000364;NL;CH;Regular Season
