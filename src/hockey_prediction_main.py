@@ -6,6 +6,8 @@ import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
+from team import Team
+
 def load_data() -> pd.DataFrame:
     # https://www.sihf.ch/de/game-center/national-league/#/standing/rank/asc/page/0/
     datafile = os.path.join(os.path.dirname(__file__), "../data/regular-season-2526.csv")
@@ -53,24 +55,22 @@ def Select_Features_Target(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.Series]:
     print(f"Shape of X: {X.shape}, Shape of y: {y.shape}")
     return X, y
 
-def convert_team_names_to_numeric(X: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
-    teams = pd.concat([X['Home'], X['Away']]).unique()
-    team_to_id = {team: idx for idx, team in enumerate(teams)}
+#  shift to a class for better structure and to avoid global variables
+def define_team_ids(df: pd.DataFrame) -> list[str]:
+    teams = pd.concat([df['Home'], df['Away']]).unique()
+    Team.initialize(teams.tolist())
+
+def evaluate_model(model: LinearRegression, X: pd.DataFrame, y: pd.Series) -> float:
+    score = model.score(X, y)
+    print(f"Model R^2 score: {score}")
+    return score
+
+def convert_team_names_to_numeric(X: pd.DataFrame) -> pd.DataFrame:
     X_numeric = X.copy()
-    X_numeric['Home'] = X_numeric['Home'].map(team_to_id).astype(int)
-    X_numeric['Away'] = X_numeric['Away'].map(team_to_id).astype(int)
-    print(f"Team to ID mapping: {team_to_id}")
+    X_numeric['Home'] = X_numeric['Home'].map(Team.Id)
+    X_numeric['Away'] = X_numeric['Away'].map(Team.Id)
     print(X_numeric.head())
-    return X_numeric, team_to_id
-
-def create_id_to_team_mapping(team_to_id: dict) -> dict:
-    return {idx: team for team, idx in team_to_id.items()}
-
-def name_to_id(team_name: str, team_to_id: dict) -> int:
-    return team_to_id.get(team_name, -1)  # Rückgabe von -1, wenn der Teamname nicht gefunden wird
-
-def id_to_name(team_id: int, id_to_team: dict) -> str:
-    return id_to_team.get(team_id, "Unknown Team")  # Rückgabe von "Unknown Team", wenn die ID nicht gefunden wird
+    return X_numeric
 
 def fit(X: pd.DataFrame, y: pd.Series) -> LinearRegression:
     model = LinearRegression()
@@ -79,20 +79,22 @@ def fit(X: pd.DataFrame, y: pd.Series) -> LinearRegression:
 
 if __name__ == "__main__":
     df = load_data()
-    df_cleaned = prepare_data(df)
-    df_with_target = add_target_variable(df_cleaned)
-    X, y = Select_Features_Target(df_with_target)
-    X_numeric, team_to_id = convert_team_names_to_numeric(X)
-    print(f"team_to_id: {team_to_id}")
-    id_to_team = create_id_to_team_mapping(team_to_id)
-    print(f"id_to_team: {id_to_team}")  
-    print(f"name of team with ID 0: {id_to_name(0, id_to_team)}")
+    define_team_ids(df)     # Initialisiert die Team-IDs basierend auf den Daten, damit sie in der Team-Klasse verfügbar sind
+    print(f"Team Name to ID mapping: {Team.name_to_id}")
+    print(f"Team ID to Name mapping: {Team.id_to_name}")
+    
+    df_cleaned = prepare_data(df)  # Bereinigt die Daten, z.B. durch Entfernen unnötiger Spalten, nur noch Features
+
+    df_with_target = add_target_variable(df_cleaned) # Fügt die Zielvariable hinzu, z.B. durch Berechnung des Spielausgangs basierend auf den Ergebnissen
+    
+    X, y = Select_Features_Target(df_with_target)  # Wählt die relevanten Features (Home, Away) und die Zielvariable (Target) aus, um sie für das Modelltraining vorzubereiten
+    X_numeric = convert_team_names_to_numeric(X)   # Konvertiert die Teamnamen in numerische IDs, damit sie für das Modell verwendet werden können
     model = fit(X_numeric, y)
 
     print(f"model prediction for the first 10 samples: {model.predict(X_numeric[0:10])}")
 
-    print(f"ZSC Lions - EV Zug: {model.predict(pd.DataFrame([[name_to_id('ZSC Lions', team_to_id), name_to_id('EV Zug', team_to_id)]], columns=['Home', 'Away']))}")
-    print(f"EV Zug - ZSC Lions: {model.predict(pd.DataFrame([[name_to_id('EV Zug', team_to_id), name_to_id('ZSC Lions', team_to_id)]], columns=['Home', 'Away']))}")
+    print(f"ZSC Lions - EV Zug: {model.predict(pd.DataFrame([[Team.Id('ZSC Lions'), Team.Id('EV Zug')]], columns=['Home', 'Away']))}")
+    print(f"EV Zug - ZSC Lions: {model.predict(pd.DataFrame([[Team.Id('EV Zug'), Team.Id('ZSC Lions')]], columns=['Home', 'Away']))}")
 
-    print(f"HC Davos - HC Ajoie: {model.predict(pd.DataFrame([[name_to_id('HC Davos', team_to_id), name_to_id('HC Ajoie', team_to_id)]], columns=['Home', 'Away']))}")
-    print(f"HC Ajoie - HC Davos: {model.predict(pd.DataFrame([[name_to_id('HC Ajoie', team_to_id), name_to_id('HC Davos', team_to_id)]], columns=['Home', 'Away']))}")
+    print(f"HC Davos - HC Ajoie: {model.predict(pd.DataFrame([[Team.Id('HC Davos'), Team.Id('HC Ajoie')]], columns=['Home', 'Away']))}")
+    print(f"HC Ajoie - HC Davos: {model.predict(pd.DataFrame([[Team.Id('HC Ajoie'), Team.Id('HC Davos')]], columns=['Home', 'Away']))}")
