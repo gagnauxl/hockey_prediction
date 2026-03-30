@@ -58,7 +58,7 @@ if __name__ == "__main__":
 
     X, y = dp.Select_Features_Target(df)  # Wählt die relevanten Features (Home, Away) und die Zielvariable (Target) aus, um sie für das Modelltraining vorzubereiten
 
-    ranking_df = dp.create_team_ranking(df, 5)  # Erstellt die Rangliste der Teams basierend auf den Punkten nach 5 Runden (Hin und Zurück)
+    ranking_df = dp.create_team_ranking(df, 10*7)  # Erstellt die Rangliste der Teams basierend auf den Punkten nach 5 Runden (Hin und Zurück)
     print("Team Ranking:")
     print(ranking_df)
 

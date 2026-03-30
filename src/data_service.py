@@ -100,15 +100,14 @@ In:
 Out:
     - Rangliste der Teams: pd.DataFrame mit Spalten 'Team', 'Punkte', sortiert nach Punkten in absteigender Reihenfolge
 """
-def create_team_ranking(df: pd.DataFrame, rounds: int) -> pd.DataFrame:
+def create_team_ranking(df: pd.DataFrame, games: int) -> pd.DataFrame:
     # Berechnung der Punkte für jedes Team basierend auf den Spielergebnissen der ersten 'rounds' Runden
     team_points = {}
     team_games = {}
     games_per_round = len(df['Home'].unique())
-    max_games = games_per_round * rounds
-    
+        
     for i, (_, row) in enumerate(df.iterrows()):
-        if i >= max_games:
+        if i >= games:
             break
             
         home_team = row['Home']
@@ -179,10 +178,10 @@ In:
     - y: np.ndarray with actual points
     - y_hut: np.ndarray with predicted points
 """
-def plot_actual_vs_predicted(y: np.ndarray, y_hut: np.ndarray, n: int = 50):
-    x = np.arange(min(n, len(y)))
-    plt.scatter(x, y[:n], color='blue', label='Actual')
-    plt.scatter(x, y_hut[:n], color='red', label='Predicted')
+def plot_actual_vs_predicted(y: np.ndarray, y_hut: np.ndarray, x: np.ndarray):
+    print(f"y: {y}, y_hut: {y_hut}")
+    plt.scatter(x, y, color='blue', label='Actual')
+    plt.scatter(x, y_hut, color='red', label='Predicted')
     plt.xlabel('Sample Index')
     plt.ylabel('Points')
     plt.title('Actual (blue) vs Predicted (red)')

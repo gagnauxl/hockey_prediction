@@ -10,6 +10,41 @@ from team import Team
 import data_service as dp
 
 #------- Modeling functions -------
+def separate_train_test(df: pd.DataFrame, test_size: float = 0.2) -> (pd.DataFrame, pd.DataFrame):
+    split_index = int(len(df) * (1 - test_size))
+    train_df = df.iloc[:split_index]
+    test_df = df.iloc[split_index:]
+    return train_df, test_df
+
+def analyze_model_performance(df: pd.DataFrame, y: pd.Series):  #df with features
+    train_games = 10*7   # 70 von 52*7 Spielen, also ca. 10 Runden
+    train_df = df.iloc[train_games:]
+    test_df = df.iloc[:train_games]
+    y_train = y.iloc[train_games:]
+    y_test = y.iloc[:train_games]
+    model = fit(train_df, y_train)
+    y_hut = model.predict(test_df)
+    y_hut = np.array([predict_rounded(val) for val in y_hut])
+
+    rmse_value = dp.rmse(y_test, y_hut)
+    r_squared_value = dp.R_squared(y_test, y_hut)
+    accuracy = accuracy_score(y_test.astype(int), y_hut.astype(int))
+    print(f"Model RMSE: {rmse_value}")
+    print(f"Model R^2: {r_squared_value}")
+    print(f"Model Accuracy: {accuracy}")
+
+    # last 10 games performance
+    y_hut_last_10 = y_hut[-10:]
+    y_test_last_10 = y.iloc[-10:]
+    print(f"Actual outcomes for the last 10 games:\n {y_test_last_10}")
+    print(f"                             Predicted: {y_hut_last_10}")
+ 
+    print(f"RMSE, y vs y_hut: {dp.rmse(y_test_last_10, y_hut_last_10)}")
+    accuracy = accuracy_score(y_test_last_10.astype(int), y_hut_last_10.astype(int))
+    print(f"Accuracy last 10 games, y vs y_hut: {accuracy}")
+
+    dp.plot_actual_vs_predicted(y_test_last_10, y_hut_last_10, np.arange(10))
+
 def fit(X: pd.DataFrame, y: pd.Series) -> LinearRegression:
     model = LinearRegression()
     model.fit(X, y)
