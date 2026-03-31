@@ -47,16 +47,38 @@ def predict_game_outcome_custom(ranking_df: pd.DataFrame, X: pd.DataFrame) -> np
         y_hat.append(outcome)
     return np.array(y_hat)
 
+def analyze_model_performance(df: pd.DataFrame, y: pd.Series):  #df with features
+    train_games = 10*7   # 70 von 52*7 Spielen, also ca. 10 Runden
+    y_test = y[:train_games]
+    test_df = df.iloc[:train_games]
+    ranking_df = dp.create_team_ranking(df, train_games)
+    print("Team Ranking:")
+    print(ranking_df)
+
+    y_hut = predict_game_outcome_custom(ranking_df, test_df)
+
+    rmse_value = dp.rmse(y_test, y_hut)
+    r_squared_value = dp.R_squared(y_test, y_hut)
+    accuracy = accuracy_score(y_test.astype(int), y_hut.astype(int))
+    print(f"Model RMSE: {rmse_value}")
+    print(f"Model R^2: {r_squared_value}")
+    print(f"Model Accuracy: {accuracy}")
+    dp.plot_actual_vs_predicted(y_test, y_hut)
+
+    # last 10 games performance
+    y_hut_last_10 = y_hut[-10:]
+    y_test_last_10 = y.iloc[-10:]
+    print(f"Actual outcomes for the last 10 games:\n {y_test_last_10}")
+    print(f"                             Predicted: {y_hut_last_10}")
+ 
+    print(f"RMSE, y vs y_hut: {dp.rmse(y_test_last_10, y_hut_last_10)}")
+    accuracy = accuracy_score(y_test_last_10.astype(int), y_hut_last_10.astype(int))
+    print(f"Accuracy last 10 games, y vs y_hut: {accuracy}")
+
+    dp.plot_actual_vs_predicted(y_test_last_10, y_hut_last_10)
+
 if __name__ == "__main__":
-    df = dp.load_data()
-    dp.define_team_ids(df)     # Initialisiert die Team-IDs basierend auf den Daten, damit sie in der Team-Klasse verfügbar sind
-     
-    df = dp.prepare_data(df)  # Bereinigt die Daten, z.B. durch Entfernen unnötiger Spalten, nur noch Features
-    df = dp.add_team_ids(df)   # Konvertiert die Teamnamen in numerische IDs, damit sie für das Modell verwendet werden können
-
-    df = dp.add_target_variables(df) # Fügt die Zielvariable hinzu, z.B. durch Berechnung des Spielausgangs basierend auf den Ergebnissen
-
-    X, y = dp.Select_Features_Target(df)  # Wählt die relevanten Features (Home, Away) und die Zielvariable (Target) aus, um sie für das Modelltraining vorzubereiten
+    X, y, df = dp.load()         # Lädt die Daten, bereitet sie vor und teilt sie in Features (X) und Zielvariable (y) auf   
 
     ranking_df = dp.create_team_ranking(df, 10*7)  # Erstellt die Rangliste der Teams basierend auf den Punkten nach 5 Runden (Hin und Zurück)
     print("Team Ranking:")

@@ -10,6 +10,7 @@ import data_service as dp
 from team import Team
 import ranking_regression as rr
 import lin_regression as lr
+import knn_regression as knn
 
 #------- Modeling functions -------
 def fit(X: pd.DataFrame, y: pd.Series) -> LinearRegression:
@@ -32,12 +33,13 @@ def evaluate_model(model: LinearRegression, X: pd.DataFrame, y: pd.Series) -> fl
     return score
 
 if __name__ == "__main__":
-    df = dp.load_data()
-    dp.define_team_ids(df)     # Initialisiert die Team-IDs basierend auf den Daten, damit sie in der Team-Klasse verfügbar sind
-    df = dp.prepare_data(df)  # Bereinigt die Daten, z.B. durch Entfernen unnötiger Spalten, nur noch Features
-    df = dp.add_team_ids(df)   # Konvertiert die Teamnamen in numerische IDs, damit sie für das Modell verwendet werden können
-    df = dp.add_target_variables(df) # Fügt die Zielvariable hinzu, z.B. durch Berechnung des Spielausgangs basierend auf den Ergebnissen
-    X, y = dp.Select_Features_Target(df)  # Wählt die relevanten Features (Home, Away) und die Zielvariable (Target) aus, um sie für das Modelltraining vorzubereiten
+    """Todo:
+    - knn-fit
+    - signifikante Features identifizieren, z.B. Zuschauerzahl
+    """
+
+    X, y, df = dp.load()         # Lädt die Daten, bereitet sie vor und teilt sie in Features (X) und Zielvariable (y) auf   
+
     print(f"\nShape of dataframe X (rows, columns): {X.shape}")
     X.info()
     print(X.head())
@@ -45,4 +47,6 @@ if __name__ == "__main__":
     print(f"Last 10 values of df: \n{df[['Home', 'Away', 'Resultat', 'OT/SO']].tail(10)}")
 
     lr.analyze_model_performance(X,y)
+    #rr.analyze_model_performance(df,y)
+    #knn.analyze_model_performance(X,y)
     print("end of main")

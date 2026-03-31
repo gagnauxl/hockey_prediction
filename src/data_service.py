@@ -4,6 +4,7 @@ import numpy as np
 import os
 from matplotlib import pyplot as plt
 from sklearn.linear_model import LinearRegression
+from sklearn.metrics import accuracy_score
 
 # own modules
 from team import Team
@@ -104,7 +105,6 @@ def create_team_ranking(df: pd.DataFrame, games: int) -> pd.DataFrame:
     # Berechnung der Punkte für jedes Team basierend auf den Spielergebnissen der ersten 'rounds' Runden
     team_points = {}
     team_games = {}
-    games_per_round = len(df['Home'].unique())
         
     for i, (_, row) in enumerate(df.iterrows()):
         if i >= games:
@@ -154,7 +154,16 @@ def Select_Features_Target(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.Series]:
 def add_round(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
     df['Round'] = (df.index // 7) + 1
-    return df   
+    return df
+
+def load() -> tuple[pd.DataFrame, pd.Series, pd.DataFrame]:
+    df = load_data()
+    define_team_ids(df)     # Initialisiert die Team-IDs basierend auf den Daten, damit sie in der Team-Klasse verfügbar sind
+    df = prepare_data(df)  # Bereinigt die Daten, z.B. durch Entfernen unnötiger Spalten, nur noch Features
+    df = add_team_ids(df)   # Konvertiert die Teamnamen in numerische IDs, damit sie für das Modell verwendet werden können
+    df = add_target_variables(df) # Fügt die Zielvariable hinzu, z.B. durch Berechnung des Spielausgangs basierend auf den Ergebnissen
+    X, y = Select_Features_Target(df)  # Wählt die relevanten Features (Home, Away) und die Zielvariable (Target) aus, um sie für das Modelltraining vorzubereiten
+    return X, y, df
 
 #------- Plotting functions -------
 def plot_results(df: pd.DataFrame, model: LinearRegression):
@@ -178,8 +187,9 @@ In:
     - y: np.ndarray with actual points
     - y_hut: np.ndarray with predicted points
 """
-def plot_actual_vs_predicted(y: np.ndarray, y_hut: np.ndarray, x: np.ndarray):
-    print(f"y: {y}, y_hut: {y_hut}")
+def plot_actual_vs_predicted(y: np.ndarray, y_hut: np.ndarray):
+    x = np.arange(len(y))
+    print(f"y    : {y.to_numpy()}\ny_hut: {y_hut}")
     plt.scatter(x, y, color='blue', label='Actual')
     plt.scatter(x, y_hut, color='red', label='Predicted')
     plt.xlabel('Sample Index')
@@ -196,6 +206,27 @@ def R_squared(y: np.ndarray, y_pred: np.ndarray) -> float:
     ss_res = np.sum((y - y_pred) ** 2)
     ss_tot = np.sum((y - np.mean(y)) ** 2)
     return 1 - (ss_res / ss_tot)
+
+def score(y_test: np.ndarray, y_hut: np.ndarray):
+    rmse_value = rmse(y_test, y_hut)
+    r_squared_value = R_squared(y_test, y_hut)
+    accuracy = accuracy_score(y_test.astype(int), y_hut.astype(int))
+    print(f"Model RMSE: {rmse_value}")
+    print(f"Model R^2: {r_squared_value}")
+    print(f"Model Accuracy: {accuracy}")
+    plot_actual_vs_predicted(y_test, y_hut)
+
+def score_last_10_games(y_test: np.ndarray, y_hut: np.ndarray):
+    y_hut_last_10 = y_hut[-10:]
+    y_test_last_10 = y_test[-10:]
+    print(f"Actual outcomes for the last 10 games:\n {y_test_last_10}")
+    print(f"                             Predicted: {y_hut_last_10}")
+ 
+    print(f"RMSE, y vs y_hut: {rmse(y_test_last_10, y_hut_last_10)}")
+    accuracy = accuracy_score(y_test_last_10.astype(int), y_hut_last_10.astype(int))
+    print(f"Accuracy last 10 games, y vs y_hut: {accuracy}")
+
+    plot_actual_vs_predicted(y_test_last_10, y_hut_last_10)
 
 if __name__ == "__main__":
     df = load_data()
