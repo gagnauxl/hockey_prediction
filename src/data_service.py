@@ -229,11 +229,33 @@ def score_last_10_games(y_test: np.ndarray, y_hut: np.ndarray):
     plot_actual_vs_predicted(y_test_last_10, y_hut_last_10)
 
 if __name__ == "__main__":
-    df = load_data()
-    define_team_ids(df)     # Initialisiert die Team-IDs basierend auf den Daten, damit sie in der Team-Klasse verfügbar sind
+    X, y, df = load()         # Lädt die Daten, bereitet sie vor und teilt sie in Features (X) und Zielvariable (y) auf
     print(f"Team Name to ID mapping:\n{Team.name_to_id}")
     print(f"\nTeam ID to Name mapping:\n{Team.id_to_name}")
     print(f"\nShape of dataframe df (rows, columns): {df.shape}")
     df.info()
     print(df.head())
+    """
+    Data columns (total 10 columns):
+    #   Column      Non-Null Count  Dtype
+    ---  ------      --------------  -----
+    0   Home        364 non-null    object
+    1   Away        364 non-null    object
+    2   Resultat    364 non-null    object
+    3   OT/SO       83 non-null     object
+    4   Zus.        364 non-null    int64
+    5   Home_Id     364 non-null    int64
+    6   Away_Id     364 non-null    int64
+    7   Points      364 non-null    int64
+    8   Home_Goals  364 non-null    int64
+    9   Away_Goals  364 non-null    int64
+    dtypes: int64(6), object(4)
+    memory usage: 28.6+ KB
+                            Home         Away Resultat OT/SO  Zus.  Home_Id  Away_Id  Points  Home_Goals  Away_Goals
+    0            HC Ambri-Piotta   EHC Kloten      2:1   NaN  6149        0       10       3           2           1
+    1                   HC Davos  Lausanne HC      4:1   NaN  3696        1       12       3           4           1
+    2          Fribourg-Gottéron    HC Lugano      3:2    OT  9280        2       11       2           3           2
+    3         Genève-Servette HC     HC Ajoie      5:3   NaN  6003        3        8       3           5           3
+    4  SC Rapperswil-Jona Lakers   SCL Tigers      5:1   NaN  4293        4       13       3           5           1
+    """
 
