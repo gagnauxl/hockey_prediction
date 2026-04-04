@@ -68,7 +68,7 @@ def analyze_model_performance(df: pd.DataFrame, X: pd.DataFrame, y: pd.Series,
     y_hut = predict_game_outcome_custom(ranking_df, test_df)
 
     dp.score(y_test, y_hut)
-    dp.score_last_10_games(y_test, y_hut)
+    #dp.score_last_10_games(y_test, y_hut) #only for test
 
 if __name__ == "__main__":
     X, y, df = dp.load()         # Lädt die Daten, bereitet sie vor und teilt sie in Features (X) und Zielvariable (y) auf   

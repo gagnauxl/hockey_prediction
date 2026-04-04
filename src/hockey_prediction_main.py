@@ -70,10 +70,15 @@ if __name__ == "__main__":
      #lr.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=10, test_idx_start=10, test_idx_end=20)
      
      # train 40 Runden, test letzte 12 Runden
-     rr.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=40, test_idx_start=40, test_idx_end=52)
+     #rr.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=40, test_idx_start=40, test_idx_end=52)
      # train 10 Runden, test nächste 10 Runden
      #rr.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=10, test_idx_start=10, test_idx_end=20)
  
- 
-     # knn.analyze_model_performance(X,y, 40*7)
+     # train 40 Runden, test letzte 12 Runden
+     #knn.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=40, test_idx_start=40, test_idx_end=52)
+     # train 10 Runden, test nächste 10 Runden
+     #knn.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=10, test_idx_start=10, test_idx_end=20)
+     
+     # train 52 Runden, test nächste 10 Runden, z.B. die letzten 10 Runden, um die Performance auf den letzten Spielen zu bewerten
+     knn.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=52, test_idx_start=42, test_idx_end=52)
      print("end of main")
