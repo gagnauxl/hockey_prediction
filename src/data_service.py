@@ -101,14 +101,13 @@ In:
 Out:
     - Rangliste der Teams: pd.DataFrame mit Spalten 'Team', 'Punkte', sortiert nach Punkten in absteigender Reihenfolge
 """
-def create_team_ranking(df: pd.DataFrame, games: int) -> pd.DataFrame:
+def create_team_ranking(df: pd.DataFrame, train_idx_start: int, train_idx_end: int) -> pd.DataFrame:
     # Berechnung der Punkte für jedes Team basierend auf den Spielergebnissen der ersten 'rounds' Runden
     team_points = {}
     team_games = {}
-        
-    for i, (_, row) in enumerate(df.iterrows()):
-        if i >= games:
-            break
+    GAMES_PER_ROUND = 7
+    for i, (_, row) in enumerate(df.iloc[train_idx_start*GAMES_PER_ROUND:train_idx_end*GAMES_PER_ROUND]
+                                 .iterrows(), start=train_idx_start*GAMES_PER_ROUND):
             
         home_team = row['Home']
         away_team = row['Away']
@@ -145,7 +144,7 @@ def create_team_ranking(df: pd.DataFrame, games: int) -> pd.DataFrame:
     return ranking_df
 
 def Select_Features_Target(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.Series]:
-    X = df[['Home_Id', 'Away_Id']]
+    X = df[['Home_Id', 'Away_Id']]   # macht eine Kopie
     y = df['Points']
     #print(f"Shape of X: {X.shape}, Shape of y: {y.shape}") # 14 * 52 / 2 = 364 samples, 2 features
     return X, y
@@ -170,7 +169,6 @@ def plot_results(df: pd.DataFrame, model: LinearRegression):
     # Hier könnte man z.B. die tatsächlichen Ergebnisse vs. die vorhergesagten Ergebnisse plotten, um die Leistung des Modells zu visualisieren
     x = df.index
     y = df['Points']
-    #Y = model.predict(df[['Home_Id', 'Away_Id']])
     plt.scatter(x, y, label='Data Points')
     y_hut = model.predict(df[['Home_Id', 'Away_Id']]) if model is not None else None
     if y_hut is not None:
@@ -189,7 +187,7 @@ In:
 """
 def plot_actual_vs_predicted(y: np.ndarray, y_hut: np.ndarray):
     x = np.arange(len(y))
-    print(f"y    : {y.to_numpy()}\ny_hut: {y_hut}")
+    #print(f"y    : {y.to_numpy()}\ny_hut: {y_hut}")
     plt.scatter(x, y, color='blue', label='Actual')
     plt.scatter(x, y_hut, color='red', label='Predicted')
     plt.xlabel('Sample Index')
@@ -235,6 +233,12 @@ if __name__ == "__main__":
     print(f"\nShape of dataframe df (rows, columns): {df.shape}")
     df.info()
     print(df.head())
+    ranking_df = create_team_ranking(df, 0, 52)
+    print(f"Team Ranking:\n{ranking_df}")
+    print(f"Team Ranking letzte Runde:\n{create_team_ranking(df, 51, 52)}")
+    print(f"Last 7 games:\n{df[['Home_Id', 'Away_Id', 'Home', 'Away', 'Resultat', 'OT/SO', 'Points']].tail(7).to_string()}")
+
+
     """
     Data columns (total 10 columns):
     #   Column      Non-Null Count  Dtype

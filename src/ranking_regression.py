@@ -53,14 +53,17 @@ def predict_game_outcome_custom(ranking_df: pd.DataFrame, X: pd.DataFrame) -> np
         y_hat.append(outcome)
     return np.array(y_hat)
 
-def analyze_model_performance(df: pd.DataFrame, y: pd.Series, train_games: int=10*7):
-    # df with features, y with target variable, train_game: 10*7 = 10 Runden
-    y_test = y[train_games:]
-    test_df = df.iloc[train_games:]
-    print(f"Number of testing items: {len(test_df)}") 
+def analyze_model_performance(df: pd.DataFrame, X: pd.DataFrame, y: pd.Series, 
+                              train_idx_start: int, train_idx_end: int,
+                              test_idx_start: int, test_idx_end: int):
+    # df with features, y with target variable, idxs in rounds
+    GAMES_PER_ROUND = 7
+    test_df = df.iloc[test_idx_start*GAMES_PER_ROUND:test_idx_end*GAMES_PER_ROUND]
+    y_test = y[test_idx_start*GAMES_PER_ROUND:test_idx_end*GAMES_PER_ROUND]
+    print(f"Number of training items: {(train_idx_end- train_idx_start)*GAMES_PER_ROUND}, test items: {len(test_df)}")
+    print(f"Training on rounds {train_idx_start} to {train_idx_end}, testing on rounds {test_idx_start} to {test_idx_end}")
 
-    ranking_df = dp.create_team_ranking(df, train_games)
-    print("Team Ranking:")
+    ranking_df = dp.create_team_ranking(df, train_idx_start, train_idx_end)
     print(ranking_df)
     y_hut = predict_game_outcome_custom(ranking_df, test_df)
 
@@ -70,7 +73,7 @@ def analyze_model_performance(df: pd.DataFrame, y: pd.Series, train_games: int=1
 if __name__ == "__main__":
     X, y, df = dp.load()         # Lädt die Daten, bereitet sie vor und teilt sie in Features (X) und Zielvariable (y) auf   
 
-    ranking_df = dp.create_team_ranking(df, 10*7)  # Erstellt die Rangliste der Teams basierend auf den Punkten nach 5 Runden (Hin und Zurück)
+    ranking_df = dp.create_team_ranking(df, 0, 52)  # Erstellt die Rangliste der Teams basierend auf den Punkten nach 5 Runden (Hin und Zurück)
     print("Team Ranking:")
     print(ranking_df)
 

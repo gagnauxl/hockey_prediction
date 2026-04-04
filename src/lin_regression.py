@@ -16,21 +16,26 @@ def separate_train_test(df: pd.DataFrame, test_size: float = 0.2) -> (pd.DataFra
     test_df = df.iloc[split_index:]
     return train_df, test_df
 
-def analyze_model_performance(df: pd.DataFrame, y: pd.Series, train_games: int=10*7):
-    # df with features, y with target variable, train_game: 10*7 = 10 Runden
-    train_df = df.iloc[:train_games]
-    print(f"Number of training items: {len(train_df)}")
-    test_df = df.iloc[train_games:]
-    y_train = y.iloc[:train_games]
-    y_test = y.iloc[train_games:]
-
+def analyze_model_performance(df: pd.DataFrame, X: pd.DataFrame, y: pd.Series, 
+                              train_idx_start: int, train_idx_end: int,
+                              test_idx_start: int, test_idx_end: int):
+    # df with features, y with target variable, idxs in rounds
+    GAMES_PER_ROUND = 7
+    train_df = X.iloc[train_idx_start*GAMES_PER_ROUND:train_idx_end*GAMES_PER_ROUND]  # ende wird nicht genommen, also 0-279 für die ersten 40 Runden
+    test_df = X.iloc[test_idx_start*GAMES_PER_ROUND:test_idx_end*GAMES_PER_ROUND]
+    print(f"Number of training items: {len(train_df)}, test items: {len(test_df)}")
+    print(f"Training on rounds {train_idx_start} to {train_idx_end}, testing on rounds {test_idx_start} to {test_idx_end}")
+    y_train = y.iloc[train_idx_start*GAMES_PER_ROUND:train_idx_end*GAMES_PER_ROUND]
+    y_test = y.iloc[test_idx_start*GAMES_PER_ROUND:test_idx_end*GAMES_PER_ROUND]
 
     model = fit(train_df, y_train)
+    dp.plot_results(df[test_idx_start*GAMES_PER_ROUND:test_idx_end*GAMES_PER_ROUND], model)
     y_hut = model.predict(test_df)
+    print(f"Predicted values y_hut) are rounded:")
     y_hut = np.array([predict_rounded(val) for val in y_hut])
 
     dp.score(y_test, y_hut)
-    dp.score_last_10_games(y_test, y_hut)
+    # dp.score_last_10_games(y_test, y_hut) only for testing
 
 def fit(X: pd.DataFrame, y: pd.Series) -> LinearRegression:
     model = LinearRegression()
@@ -45,7 +50,7 @@ def predict_rounded(y: float) -> float:
 if __name__ == "__main__":
     X, y, df = dp.load()         # Lädt die Daten, bereitet sie vor und teilt sie in Features (X) und Zielvariable (y) auf   
     model = fit(X, y)            # Trainiert auf ALLE Daten
-    #dp.plot_results(df, model)
+    dp.plot_results(df, model)
 
     y = y[0:10].to_numpy()
     y_hut = model.predict(X[0:10])

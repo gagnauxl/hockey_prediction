@@ -45,49 +45,35 @@ Die Modelle werden auf den ersten 40 Runden (280 Spielen) trainiert und dann
 auf den nächsten 12 Runden getestet, um die Performance zu bewerten.
 """
 
-#------- Modeling functions -------
-def fit(X: pd.DataFrame, y: pd.Series) -> LinearRegression:
-    model = LinearRegression()
-    model.fit(X, y)
-    return model
-
-def predict(model: LinearRegression, X: pd.DataFrame) -> np.ndarray:
-    y = model.predict(X)
-    return y
-
-def predict_rounded(y: np.ndarray) -> np.ndarray:
-    mean = np.mean(y)
-    print(f"Mean of predicted values: {mean}")
-    y_ret = np.where(y < mean, 0, 3)
-    return y_ret
-
-def evaluate_model(model: LinearRegression, X: pd.DataFrame, y: pd.Series) -> float:
-    score = model.score(X, y)
-    return score
-
 if __name__ == "__main__":
-    """
-    Todo:
-    - Done: dynamic train-test split basierend auf Runden, z.B. 10 Runden trainieren, dann testen, dann nächsten 10 Runden trainieren, etc.
-    - Done: knn-fit, geht nicht und Neighborhoods > 1 führen zu schlechteren Ergebnissen, warum?
-    - signifikante Features identifizieren, z.B. Zuschauerzahl
-    - Done Cross-Validation, teilweise gemacht, mit Train-Test-Split, aber könnte verbessert werden
-    - ELO-ähnliches Ranking der Teams, basierend auf den bisherigen Spielen, und dieses als Feature nutzen
-    """
+     """
+     Todo:
+     - Done: dynamic train-test split basierend auf Runden, z.B. 10 Runden trainieren, dann testen, dann nächsten 10 Runden trainieren, etc.
+     - Done: knn-fit, geht nicht und Neighborhoods > 1 führen zu schlechteren Ergebnissen, warum?
+     - Rejected: signifikante Features identifizieren, z.B. Zuschauerzahl
+     - Done Cross-Validation, teilweise gemacht, mit Train-Test-Split, aber könnte verbessert werden
+     - Done: ELO-ähnliches Ranking der Teams, basierend auf den bisherigen Spielen, und dieses als Feature nutzen
+     - ELO aber nur die letzten 10 Spiele berücksichtigen (nur Streak), damit es dynamisch bleibt, und nicht die gesamte Historie
 
-    X, y, df = dp.load()         # Lädt die Daten, bereitet sie vor und teilt sie in Features (X) und Zielvariable (y) auf   
+     """
+     X, y, df = dp.load()         # Lädt die Daten, bereitet sie vor und teilt sie in Features (X) und Zielvariable (y) auf   
+     #print(f"Last 10 values of df: \n{df[['Home_Id', 'Away_Id', 'Home', 'Away', 'Resultat', 'OT/SO', 'Points']].tail(5).to_string()}")
+     print(f"Last 10 values of df: \n{df[['Home_Id', 'Away_Id', 'Home', 'Away', 'Resultat', 'OT/SO', 'Points']].iloc[130:140].to_string()}")
+     print(f"Features: {X.shape}")
+     #X.info()
+     print(X.head())
+     print(f"\nShape of target variable y: {y.shape}\n{y[-5:]}")
 
-    print(f"\nShape of dataframe X (rows, columns): {X.shape}")
-    X.info()
-    print(X.head())
-    print(f"\nShape of target variable y: {y.shape}")
-    print(f"Last 10 values of df: \n{df[['Home_Id', 'Away_Id', 'Home', 'Away', 'Resultat', 'OT/SO', 'Points']].tail(10)}")
-
-    # lr.analyze_model_performance(X,y)
-    # rr.analyze_model_performance(df,y)
-    # knn.analyze_model_performance(X,y)
-
-    # lr.analyze_model_performance(X,y, 40*7)
-    rr.analyze_model_performance(df,y, 40*7)
-    # knn.analyze_model_performance(X,y, 40*7)
-    print("end of main")
+     # train 40 Runden, test letzte 12 Runden
+     #lr.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=40, test_idx_start=40, test_idx_end=52)
+     # train 10 Runden, test nächste 10 Runden
+     #lr.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=10, test_idx_start=10, test_idx_end=20)
+     
+     # train 40 Runden, test letzte 12 Runden
+     rr.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=40, test_idx_start=40, test_idx_end=52)
+     # train 10 Runden, test nächste 10 Runden
+     #rr.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=10, test_idx_start=10, test_idx_end=20)
+ 
+ 
+     # knn.analyze_model_performance(X,y, 40*7)
+     print("end of main")
