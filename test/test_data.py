@@ -60,3 +60,14 @@ def test_accuracy_score():
     expected_accuracy = 1.0 # perfect prediction
     assert accuracy == expected_accuracy, f"Expected accuracy to be {expected_accuracy}, but got {accuracy}"
 
+def test_team_ranking():
+    X, y, df = dp.load()
+    ranking_df = dp.create_team_ranking(df, 0, 52)
+    expected_ranking = ['HC Davos', 'Fribourg-Gottéron','Genève-Servette HC', 'ZSC Lions', 'HC Lugano', 'Lausanne HC', 
+                        'SC Rapperswil-Jona Lakers', 'EV Zug', 'SC Bern', 'EHC Biel-Bienne','SCL Tigers', 'EHC Kloten',
+                         'HC Ambri-Piotta','HC Ajoie']
+    
+    actual_ranking = ranking_df['Team'].tolist()
+    assert actual_ranking == expected_ranking, f"Expected team ranking to be {expected_ranking}, but got {actual_ranking}"
+ 
+

@@ -38,6 +38,14 @@ class Team:
     def Name(cls, team_id: int):
         return cls.id_to_name.get(team_id)
 
+    @classmethod
+    def AllIds(cls):
+        return list(cls.id_to_name.keys())
+
+    @classmethod
+    def AllNames(cls):
+        return list(cls.name_to_id.keys())
+
 
 if __name__ == "__main__":
     # Beispiel für die Initialisierung der Teams
@@ -46,3 +54,6 @@ if __name__ == "__main__":
     # Beispiel für die Verwendung der Team-Klasse
     print(Team.Id('EV Zug'))  # Ausgabe: 0
     print(Team.Name(1))       # Ausgabe: 'ZSC Lions'
+
+    print("All team IDs:", Team.AllIds())       # Ausgabe: [0, 1, 2, 3]
+    print("All team names:", Team.AllNames())   # Ausgabe: ['EV Zug', 'ZSC Lions', 'HC Davos', 'HC Ajoie']
