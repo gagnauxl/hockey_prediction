@@ -58,18 +58,18 @@ if __name__ == "__main__":
      - ELO aber nur die letzten 10 Spiele berücksichtigen (nur Streak), damit es dynamisch bleibt, und nicht die gesamte Historie
 
      """
-     X, y, df = dp.load()         # Lädt die Daten, bereitet sie vor und teilt sie in Features (X) und Zielvariable (y) auf   
+     X, y, df = dp.load(SVS=True)         # Lädt die Daten, bereitet sie vor und teilt sie in Features (X) und Zielvariable (y) auf   
      #print(f"Last 10 values of df: \n{df[['Home_Id', 'Away_Id', 'Home', 'Away', 'Resultat', 'OT/SO', 'Points']].tail(5).to_string()}")
-     print(f"Last 10 values of df: \n{df[['Home_Id', 'Away_Id', 'Home', 'Away', 'Resultat', 'OT/SO', 'Points']].iloc[130:140].to_string()}")
+     print(f"Last 10 values of df: \n{df[['Home_Id', 'Away_Id', 'Home', 'Away', 'Resultat', 'OT/SO', 'Points', 'SVS_Home', 'SVS_Away']].iloc[:5].to_string()}")
      print(f"Features: {X.shape}")
-     #X.info()
+     X.info()
      print(X.head())
      print(f"\nShape of target variable y: {y.shape}\n{y[-5:]}")
 
      # train 40 Runden, test letzte 12 Runden
      #lr.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=40, test_idx_start=40, test_idx_end=52)
      # train 10 Runden, test nächste 10 Runden
-     #lr.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=10, test_idx_start=10, test_idx_end=20)
+     lr.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=10, test_idx_start=10, test_idx_end=20, SVS=True)
      
      # train 40 Runden, test letzte 12 Runden
      #rr.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=40, test_idx_start=40, test_idx_end=52)
@@ -84,9 +84,9 @@ if __name__ == "__main__":
      # train 52 Runden, test nächste 10 Runden, z.B. die letzten 10 Runden, um die Performance auf den letzten Spielen zu bewerten
      #knn.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=52, test_idx_start=42, test_idx_end=52)
 
-     elo.plot_expected_score()
-     elo.plot_update_elo()
-     elo.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=42, test_idx_start=42, test_idx_end=52)
-     elo.plot_Elo_HC_Davos_Ajoie(df)
+     # elo.plot_expected_score()
+     # elo.plot_update_elo()
+     # elo.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=42, test_idx_start=42, test_idx_end=52)
+     # elo.plot_Elo_HC_Davos_Ajoie(df)
      
      print("end of main")

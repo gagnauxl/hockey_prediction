@@ -18,12 +18,13 @@ Data Service Module
 - plotting
 - statistics: RMSE, R²
 """
+DATA_FILE = os.path.join(os.path.dirname(__file__), "../data/regular_season-2526-SVS.csv")
 
 #------- Data processing functions -------
 def load_data() -> pd.DataFrame:
     # https://www.sihf.ch/de/game-center/national-league/#/standing/rank/asc/page/0/
-    datafile = os.path.join(os.path.dirname(__file__), "../data/regular-season-2526.csv")
-    df = pd.read_csv(datafile, sep=';')
+    datafile = os.path.join(os.path.dirname(__file__), DATA_FILE)
+    df = pd.read_csv(datafile, sep=',')
     return df
 
 # call it once to initialize the team mappings based on the data, so that they are available in the Team class
@@ -34,7 +35,7 @@ def define_team_ids(df: pd.DataFrame) -> list[str]:
 
 def prepare_data(df: pd.DataFrame) -> pd.DataFrame:
     # Entfernen von unnötigen Spalten, z.B. 'Date', 'Time', 'Attendance', 'Venue', 'City', 'State'
-    df_cleaned = df[['Home', 'Away', 'Resultat', 'OT/SO', 'Zus.']]
+    df_cleaned = df[['Home', 'Away', 'Resultat', 'OT/SO', 'Zus.','SVS_Home', 'SVS_Away']]  # nur die Spalten, die wir für die Vorhersage brauchen, z.B. Home, Away, Resultat, OT/SO, Zus., SVS_Home, SVS_Away
     #df_cleaned = df.drop(columns=['Tag', 'Datum', 'Zeit', 'Drittel', 'Status', 'Versch.', 'Stadion', 'TV/Online', 'Id', 'Liga', 'Region', 'Phase'], errors='ignore')
     #df_cleaned.info()
     #print(df_cleaned.head())
@@ -149,28 +150,40 @@ def Select_Features_Target(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.Series]:
     #print(f"Shape of X: {X.shape}, Shape of y: {y.shape}") # 14 * 52 / 2 = 364 samples, 2 features
     return X, y
 
+def Select_Features_Target_SVS(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.Series]:
+    X = df[['Home_Id', 'Away_Id', 'SVS_Home', 'SVS_Away']]   # macht eine Kopie
+    y = df['Points']
+    #print(f"Shape of X: {X.shape}, Shape of y: {y.shape}") # 14 * 52 / 2 = 364 samples, 2 features
+    return X, y
+
 """not used for the moment """
 def add_round(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
     df['Round'] = (df.index // 7) + 1
     return df
 
-def load() -> tuple[pd.DataFrame, pd.Series, pd.DataFrame]:
+def load(SVS: bool = False) -> tuple[pd.DataFrame, pd.Series, pd.DataFrame]:
     df = load_data()
     define_team_ids(df)     # Initialisiert die Team-IDs basierend auf den Daten, damit sie in der Team-Klasse verfügbar sind
     df = prepare_data(df)  # Bereinigt die Daten, z.B. durch Entfernen unnötiger Spalten, nur noch Features
     df = add_team_ids(df)   # Konvertiert die Teamnamen in numerische IDs, damit sie für das Modell verwendet werden können
     df = add_target_variables(df) # Fügt die Zielvariable hinzu, z.B. durch Berechnung des Spielausgangs basierend auf den Ergebnissen
-    X, y = Select_Features_Target(df)  # Wählt die relevanten Features (Home, Away) und die Zielvariable (Target) aus, um sie für das Modelltraining vorzubereiten
+    if SVS:
+        X, y = Select_Features_Target_SVS(df)  # Wählt die relevanten Features (Home, Away, SVS_Home, SVS_Away) und die Zielvariable (Target) aus, um sie für das Modelltraining vorzubereiten
+    else:
+        X, y = Select_Features_Target(df)  # Wählt die relevanten Features (Home, Away) und die Zielvariable (Target) aus, um sie für das Modelltraining vorzubereiten
     return X, y, df
 
 #------- Plotting functions -------
-def plot_results(df: pd.DataFrame, model: LinearRegression):
+def plot_results(df: pd.DataFrame, model: LinearRegression, SVS: bool = False):
     # Hier könnte man z.B. die tatsächlichen Ergebnisse vs. die vorhergesagten Ergebnisse plotten, um die Leistung des Modells zu visualisieren
     x = df.index
     y = df['Points']
     plt.scatter(x, y, label='Data Points')
-    y_hut = model.predict(df[['Home_Id', 'Away_Id']]) if model is not None else None
+    if SVS:
+        y_hut = model.predict(df[['Home_Id', 'Away_Id', 'SVS_Home', 'SVS_Away']]) if model is not None else None
+    else:
+        y_hut = model.predict(df[['Home_Id', 'Away_Id']]) if model is not None else None
     if y_hut is not None:
         plt.plot(x, y_hut, color='red', label='Fitted Line') 
     plt.xlabel('x') 

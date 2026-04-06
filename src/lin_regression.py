@@ -4,6 +4,7 @@ import numpy as np
 import os
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import accuracy_score
+import statsmodels.api as sm
 
 # own modules
 from team import Team
@@ -18,7 +19,7 @@ def separate_train_test(df: pd.DataFrame, test_size: float = 0.2) -> (pd.DataFra
 
 def analyze_model_performance(df: pd.DataFrame, X: pd.DataFrame, y: pd.Series, 
                               train_idx_start: int, train_idx_end: int,
-                              test_idx_start: int, test_idx_end: int):
+                              test_idx_start: int, test_idx_end: int, SVS: bool = False) -> None:
     # df with features, y with target variable, idxs in rounds
     GAMES_PER_ROUND = 7
     train_df = X.iloc[train_idx_start*GAMES_PER_ROUND:train_idx_end*GAMES_PER_ROUND]  # ende wird nicht genommen, also 0-279 für die ersten 40 Runden
@@ -29,7 +30,9 @@ def analyze_model_performance(df: pd.DataFrame, X: pd.DataFrame, y: pd.Series,
     y_test = y.iloc[test_idx_start*GAMES_PER_ROUND:test_idx_end*GAMES_PER_ROUND]
 
     model = fit(train_df, y_train)
-    dp.plot_results(df[test_idx_start*GAMES_PER_ROUND:test_idx_end*GAMES_PER_ROUND], model)
+    model_summary = sm.OLS(y, X).fit()
+    print(model_summary.summary())
+    dp.plot_results(df[test_idx_start*GAMES_PER_ROUND:test_idx_end*GAMES_PER_ROUND], model, SVS)
     y_hut = model.predict(test_df)
     print(f"Predicted values y_hut) are rounded:")
     y_hut = np.array([predict_rounded(val) for val in y_hut])
