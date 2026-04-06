@@ -13,6 +13,7 @@ import ranking_regression as rr
 import lin_regression as lr
 import knn_regression as knn
 import elo_regression as elo
+import rpart_regression as rp
 
 """
 Eishockey Vorhersagemodell: Ziel ist es, die Punkte des Heimteams in einem Spiel 
@@ -69,7 +70,7 @@ if __name__ == "__main__":
      # train 40 Runden, test letzte 12 Runden
      #lr.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=40, test_idx_start=40, test_idx_end=52)
      # train 10 Runden, test nächste 10 Runden
-     lr.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=10, test_idx_start=10, test_idx_end=20, SVS=True)
+     #lr.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=10, test_idx_start=10, test_idx_end=20, SVS=True)
      
      # train 40 Runden, test letzte 12 Runden
      #rr.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=40, test_idx_start=40, test_idx_end=52)
@@ -88,5 +89,7 @@ if __name__ == "__main__":
      # elo.plot_update_elo()
      # elo.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=42, test_idx_start=42, test_idx_end=52)
      # elo.plot_Elo_HC_Davos_Ajoie(df)
+
+     rp.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=10, test_idx_start=10, test_idx_end=20)
      
      print("end of main")
