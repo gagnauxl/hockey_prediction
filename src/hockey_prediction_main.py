@@ -14,6 +14,7 @@ import lin_regression as lr
 import knn_regression as knn
 import elo_regression as elo
 import rpart_regression as rp
+import random_forest as rf
 
 """
 Eishockey Vorhersagemodell: Ziel ist es, die Punkte des Heimteams in einem Spiel 
@@ -71,7 +72,7 @@ if __name__ == "__main__":
      # train 40 Runden, test letzte 12 Runden
      # lr.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=40, test_idx_start=40, test_idx_end=52, SVS=SVS)
      # train 10 Runden, test nächste 10 Runden
-     lr.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=10, test_idx_start=10, test_idx_end=20, SVS=SVS)
+     #lr.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=10, test_idx_start=10, test_idx_end=20, SVS=SVS)
      
      # train 40 Runden, test letzte 12 Runden
      #rr.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=40, test_idx_start=40, test_idx_end=52)
@@ -92,6 +93,10 @@ if __name__ == "__main__":
      # elo.plot_Elo_HC_Davos_Ajoie(df)
 
      # Geht nur wenn SVS=True
+     # Decision Tree
      rp.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=10, test_idx_start=10, test_idx_end=20)
+
+     # Random Forest
+     rf.analyze_model_performance(df=df, X=X, y=y, train_idx_start=0, train_idx_end=10, test_idx_start=10, test_idx_end=20)
      
      print("end of main")
